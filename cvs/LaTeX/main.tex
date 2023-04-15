@@ -1,0 +1,169 @@
+% Preamble
+% Compile with XeLateX
+
+\documentclass[11pt,oneside,a4paper,titlepage]{article}
+\usepackage{preamble}
+\graphicspath{{PIC/}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\sidebar{sideBarColor!25}
+\simpleheader{titleBackColor}{Huw Coverdale}{Jones}{Technical Writer}{white}
+
+% Start Minipages
+\vspace*{3.49cm}% start 8 cm from the top of the page}
+    \adjustbox{valign=t}{\begin{minipage}{7.3cm} % large 7.4 cm from the top
+    \scriptsize
+    \vspace*{1.2cm} % text starts 1cm under the top of the minipage
+            
+        % Picture
+        \begin{center}
+        \begin{tikzpicture}
+            \node[
+            circle,
+            minimum size=\cvPictureWidth,
+            path picture={
+            \node at (path picture bounding box.center){
+             \includegraphics[width=\cvPictureWidth]{huw.jpeg}
+             };
+             }]
+            {};
+        \end{tikzpicture}
+        \end{center}
+
+       
+        % Contact Section
+        \begin{spacing}{1.5}
+        \ruleline{\textbf{Contact}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+        
+        \node{\faEnvelope}; 
+         & \node{\href{mailto:huwcoverdalejones@gmail.com}{huwcoverdalejones@gmail.com}};\\
+       
+        \node{\faPhone}; 
+         & \node{+354 784-1195};\\ 
+        \node{\faMapMarker}; 
+        & \node{Seltjarnarnes, Iceland};\\
+        \node{\faLinkedinSquare}; 
+        & \node{\href{https://www.linkedin.com/in/huw-jones-9541b147/}{huw-jones9541b147}};\\
+       } ;
+        \end{tikzpicture} 
+        
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \ruleline{\textbf{Languages}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+        \node{\flag{England.png}};
+        & \node{English - Native Languages};\\
+        \node{\flag{southk.jpg}};
+        & \node{Korean - Professional Conversational Fluency};\\
+        \node{\flag{china.png}};
+        & \node{Chinese - Professional Conversational Fluency};\\
+        \node{\flag{iceland.jpg}};
+        & \node{Icelandic - Passed Citizenship Test August 2022};\\
+        };
+        \end{tikzpicture} 
+
+        \ruleline{\textbf{Technical Skills}}
+        \begin{tikzpicture}[every node/.style={inner sep=0pt, outer sep=0pt}]
+        \matrix [
+        column 1/.style={anchor=center,contactIcon},
+        column 2/.style={anchor=west,align=left,contactIcon},
+        column sep=5pt,
+        row sep=5pt] (contact) {
+
+        \node{\flag{asciidoc.png}};
+        & \node{Asciidoc - Long Time Competent User};\\
+        \node{\flag{latex.png}};
+        & \node{LaTex - Long Time Competent User};\\
+        \node{\flag{markdown.png}};
+        & \node{Markdown - Long Time Competent User};\\
+        \node{\flag{git.png}};
+        & \node{Git - General Competency for Version Management};\\
+        \node{\flag{dita.png}};
+        & \node{DITA-XML - Basic Understanding for Documentation};\\
+        \node{\flag{tux.png}};
+        & \node{Linux Mint and Ubuntu- Keen user since Ubuntu 11.10};\\
+        \node{\flag{tux.png}};
+        & \node{USB Linux- Keen USB distribution user: Tails OS, MX etc.};\\
+        };
+        \end{tikzpicture}
+         \end{spacing}
+    \end{minipage}} %
+    \hfill 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% MAIN SECTION %%%%%%%%%%%%%%%%%%%%
+    \adjustbox{valign=t}{\begin{minipage}{11.3cm}
+        \vspace*{1.5cm}
+        \section*{{\faGraduationCap} Education}
+
+        \MySection{2015 - 2017}{}{MSc}{University of Iceland}{Reykjavik, Iceland}{Environment and Natural Resources - Renewable Energy
+        Economics, Policy, and Sustainability}{\\\textbf{Grade: 7.5}}
+            
+        \vspace*{0.22cm}
+        
+        \MySection{2014-2014}{}{Certificate}{School of Oriental and African Studies}{London, UK}{Certificate in Teaching English for Academic Purposes}{\\
+        \textbf{Grade: Pass}}
+
+        \vspace*{0.22cm}
+
+        \MySection{2012-2012}{}{CELTA}{Highbury College,}{Portsmouth, UK}{Certificate in English Language Teaching to Adults(CELTA)}{\\
+        \textbf{Grade: Pass}}
+
+        \vspace*{0.22cm}
+            
+        \MySection{2007-2012}{}{BA}{School of Oriental and African Studies}{London, UK}{Chinese and Korean}{\\
+        \textbf{Grade: 2:1}}
+
+        \vspace*{1cm}
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Work Experience
+        \section*{{\faSuitcase} Work Experience}
+            
+        \MySectionNoPic{2021-2023}{Technical Writer}{Kopavogur, Iceland}{Tern Systems}  
+        
+        \vspace*{0.22cm}
+            
+        \MySectionNoPic{2019-2021}{DPM Technician}{Reyjavik, Iceland}{Alvotech}
+        
+        \vspace*{0.22cm}
+        
+        \MySectionNoPic{2017-2019}{Process Engineer}{Reyjavik, Iceland}{Omega Algae}
+        
+        \vspace*{0.22cm}
+        
+        \MySectionNoPic{2015}{EFL Teacher}{Taiwan}{Shane English}
+        
+        \vspace*{0.22cm}
+        
+        \MySectionNoPic{Aug 2014}{Academic Language Support Teacher}{London, UK}{School of Oriental and African Studies}
+        
+        \vspace*{0.22cm}
+
+        \MySectionNoPic{Mar - Aug 2014}{EFL Teacher}{Portsmouth, UK}{PELS}
+        
+        \vspace*{0.22cm}
+
+        \MySectionNoPic{2013 - 2014}{EFL Teacher}{Jeju, South Korea}{EPIK}
+        
+        \vspace*{0.22cm}
+
+        \MySectionNoPic{2012 - Now}{Stand-Up Comedian}{Global}{Self-Employed}
+
+        \vspace*{0.22cm}
+
+    \end{minipage}} %
+
+
+
+
+\end{document}
