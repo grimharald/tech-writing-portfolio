@@ -1,0 +1,8 @@
+:imagesdir: images
+
+= Huw Coverdale Jones: Technical Writer
+
+== Contact
+image:mail.png[,20,20] Huwcoverdalejones@gmail.com
+
+image:phone.png[,20,20] + 354 784-1195
