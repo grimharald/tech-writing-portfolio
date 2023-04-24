@@ -5,7 +5,7 @@
 == Contact
 [cols=",",frame="none",grid="none"]
 |===
-|image:mail.png[,20,20] Huwcoverdalejones@gmail.com .5+a|image:huw.jpeg[,200,200]
+|image:mail.png[,20,20] Huwcoverdalejones@gmail.com .5+|image:huw.jpeg[,200,200]
 
 |image:phone.png[,20,20] + 354 784-1195|
 
