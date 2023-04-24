@@ -3,6 +3,23 @@
 = Huw Coverdale Jones: Technical Writer
 
 == Contact
-image:mail.png[,20,20] Huwcoverdalejones@gmail.com
+[cols=",",frame="none",grid="none"]
+|===
+|image:mail.png[,20,20] Huwcoverdalejones@gmail.com .5+a|image:huw.jpeg[,200,200]
 
-image:phone.png[,20,20] + 354 784-1195
+|image:phone.png[,20,20] + 354 784-1195|
+
+|image:map.png[,20,20] Seltjarnarnes, Iceland|
+
+|image:linkedin.png[,20,20] https://www.linkedin.com/in/huw-jones-9541b147/[huw-jones-9541b147] |
+|===
+
+== Languages
+
+image:England.png[,20,20] English - Native Language
+
+image:southk.jpg[,20,20] Korean - Professional Conversational Fluency
+
+image:china.png[,20,20] Chinese - Professional Conversational Fluency
+
+image:iceland.jpg[,20,20] Icelandic - Passed 
