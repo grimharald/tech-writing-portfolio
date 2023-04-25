@@ -1,4 +1,5 @@
 :imagesdir: images
+:stylesdir: styles
 
 = Huw Coverdale Jones: Technical Writer
 
@@ -16,7 +17,7 @@ image:linkedin.png[,20,20] https://www.linkedin.com/in/huw-jones-9541b147/[huw-j
 |image:huw.jpeg[,180,180]
 |===
 
-[cols=","]
+[cols=",",grid="none",frame="none"]
 |===
 a| == Languages
 
@@ -109,7 +110,7 @@ _Tern Systems, Kopavogur, Iceland_
 
 _Alvotech, Reyjavik, Iceland_
 
-* Carried out general clinical manufacturing duties in a Pharmaceutical GMP workplace.
+* Carried out general clinical manufacturing duties in a Pharmaceutical GMP enivronment.
 
 * Developed technical knowledge of clinical manufacturing tools, including Autoclave and VHP Chamber.
 
