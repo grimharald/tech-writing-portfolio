@@ -30,7 +30,7 @@ image:southk.jpg[,20,20] Korean - Professional Conversational Fluency
 
 image:china.png[,20,20] Chinese - Professional Conversational Fluency
 
-image:iceland.jpg[,20,20] Icelandic - Passed 
+image:iceland.jpg[,20,20] Icelandic - Passed Citizenship Test
 
 ==== Technical Skills
 
