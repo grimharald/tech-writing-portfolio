@@ -1,5 +1,4 @@
 :imagesdir: images
-//:stylesdir: styles
 
 = Huw Coverdale Jones: Technical Writer
 Huw Coverdale Jones
