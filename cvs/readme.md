@@ -1,6 +1,6 @@
 # CVs
 
-In this folder there are assorted coding CVs to serve as a combination of CV reference, and technical writing portfolio. 
+In this folder there are assorted code-as-document CVs to serve as a combination of CVs for reference, and examples for a technical writing portfolio.
 
 
 Currently, this file includes
