@@ -2,47 +2,37 @@
 #include "raymath.h"
 #include "character.h"
 
-
 int main()
 {
-    // window array
-    int windowDimensions[2];
-    windowDimensions[0] = 384;
-    windowDimensions[1] = 384;
+    const int windowWidth{384};
+    const int windowHeight{384};
+    InitWindow(windowWidth, windowHeight, "Huw's Top Down");
 
-    // window
-    InitWindow(windowDimensions[0], windowDimensions[1], "Huw top down");
-
-    // load background
-    Texture2D background = LoadTexture("nature_tileset/world-map.png");
+    Texture2D map = LoadTexture("nature_tileset/OpenWorldMap24x24.png");
     Vector2 mapPos{0.0, 0.0};
     const float mapScale{4.0f};
 
-    Character knight;
-    knight.setScreenPos(windowDimensions[0],windowDimensions[1]);
-
+    Character knight{windowWidth, windowHeight};
 
     SetTargetFPS(60);
-
     while (!WindowShouldClose())
     {
-        // start drawing
         BeginDrawing();
         ClearBackground(WHITE);
-        // draw background
-        DrawTextureEx(background, mapPos, 0.0, mapScale, WHITE);
 
         mapPos = Vector2Scale(knight.getWorldPos(), -1.f);
 
+        // draw the map
+        DrawTextureEx(map, mapPos, 0.0, 4.0, WHITE);
         knight.tick(GetFrameTime());
-        //check map bounds
+        // check map bounds
         if (knight.getWorldPos().x < 0.f ||
             knight.getWorldPos().y < 0.f ||
-            knight.getWorldPos().x + windowDimensions[0] > background.width * mapScale||
-            knight.getWorldPos().y + windowDimensions[1] > background.height * mapScale) 
+            knight.getWorldPos().x + windowWidth > map.width * mapScale ||
+            knight.getWorldPos().y + windowHeight > map.height * mapScale)
         {
             knight.undoMovement();
-        };
+        }
 
         EndDrawing();
     }
