@@ -1,6 +1,7 @@
 #ifndef BASE_CHARACTER_H
 #define BASE_CHARACTER_H
 #include "raylib.h"
+#include "raymath.h"
 
 class BaseCharacter
 {
@@ -10,6 +11,7 @@ public:
     void setScreenPos(int winWidth, int winHeight);
     void undoMovement();
     Rectangle getColRec();
+    virtual void tick(float deltaTime);
 protected:
     Texture2D texture{LoadTexture("characters/knight_idle_spritesheet.png")};
     Texture2D idle{LoadTexture("characters/knight_idle_spritesheet.png")};
