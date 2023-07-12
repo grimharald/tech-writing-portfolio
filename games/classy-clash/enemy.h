@@ -9,7 +9,8 @@ class Enemy : public BaseCharacter
         Enemy(Vector2 pos, Texture2D idle_tex, Texture2D run_tex);
         virtual void tick(float deltaTime) override;
         void setTarget(Character* character) {target = character;}
-        
+        virtual Vector2 getScreenPos() override;
+
     private:
         Character* target;
         };
