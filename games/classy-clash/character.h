@@ -12,6 +12,7 @@ public:
     virtual void tick(float deltaTime) override;
     virtual Vector2 getScreenPos() override;
     Vector2 getWorldPos() { return worldPos; }
+    Rectangle getWeaponColRec() { return weaponColRec; }
 
 private:
     int windowWidth{};
