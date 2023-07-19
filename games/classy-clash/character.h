@@ -13,12 +13,15 @@ public:
     virtual Vector2 getScreenPos() override;
     Vector2 getWorldPos() { return worldPos; }
     Rectangle getWeaponColRec() { return weaponColRec; }
+    float getHealth() const {return health;}
+    void takeDamage(float damage);
 
 private:
     int windowWidth{};
     int windowHeight{};
    Texture2D weapon{LoadTexture("characters/weapon_sword.png")};
    Rectangle weaponColRec{};
+   float health{100.f};
 };
 
 #endif

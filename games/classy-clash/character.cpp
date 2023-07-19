@@ -66,3 +66,10 @@ void Character::tick(float deltaTime)
 
         //DrawRectangleLines(weaponColRec.x,weaponColRec.y,weaponColRec.width,weaponColRec.height,RED);
     };
+
+void Character::takeDamage(float damage) {
+    health -= damage;
+    if (health <= 0.f){
+        setAlive(false);
+}
+};
