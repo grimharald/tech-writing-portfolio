@@ -1,0 +1,138 @@
+:imagesdir: images
+= GitLab Sign-Up
+
+This is a guide to the GitLab sign-up procedure for complete beginners. This procedure assumes:
+
+
+* You have never used GitLab, or any similar DevOps platforms before. 
+* You are signing up as an individual.
+* You have little or no experience with Git.
+* You are signing up to create your own projects.
+* You are signing up with email or Google.
+
+After the sign-up process chapter, there will also be a guide to SSH keys for connecting your GitLab to your computer using Git. This is for more advanced users. 
+
+For this process you will need: 
+
+* Your computer, naturally.
+* A stable and secure internet connection. Ideally, you should sign-up at home or work. 
+* A registered email address. 
+* Around 10 minutes.
+
+== Sign-Up Procedure
+
+To sign-up for GitLab, take the following steps: 
+
+. Open your browser and go to the https://about.gitlab.com/[GitLab Homepage]. 
+. Click "Sign in" in the upper right corner, as seen below.
++
+image:gitlab-bar.jpg[]
++
+. The sign-in page will open, for existing users. Under the sign-in button and terms of use, click "Register now," the link highlighted in blue.
++
+image:gitlab-sign-page.jpg[]
++
+. The registration page will appear:
++
+image:gitlab-reg-page.jpg[]
++
+. Fill in your email and other details. 
+** Select a username and password.
+** Click "Register." 
++
+NOTE: If you scroll down, you will see several options for signing up with Google,  or other accounts. This tutorial will cover the Google sign-up process in the next chapter.
+
+. Confirm your identity with the email entered in Step 4:
+*** Open your inbox.
+** Open the email from GitLab with "Confirm your email address" as the subject.
+** Copy the numerical code in the email into the confirmation box shown below.
+image:gitlabconfirm.jpg[]
+. Fill out the welcome questionnaire with your personal answers. Be sure to select "Create new projects" as your reason for signing up. 
+. The page will open a new project page:
+** Input a group name.
+** Input a project name.
+** Select the "Include a Getting Started README" checkbox. 
+** Click "Create project."
+
+image:gitlab-proj.jpg[]
+
+Congratulations! You now have a Gitlab account and project!
+
+== Google Sign-Up Procedure
+
+If you have a Gmail account, the sign-up process differs slightly:
+
+. Complete Steps 1 to 3 in the previous chapter. 
+. At the registration page, scroll down and select "Google" from the list shown below. 
++
+image:gitlab-goog.jpg[]
+ +   
+. Select your desired Google account. 
+ . The GitLab dashboard will open, with the option to create projects or groups. 
+\end{enumerate}
+
+Viola! You now have a Gitlab account as part of your Google! 
+
+== Connecting GitLab to Your Computer with SSH
+
+As indicated in the name, GitLab is intended for use with Git. 
+
+Developers, Technical Writers, and other technical professionals use GitLab in combination with Git for versioning control and collaborative coding. 
+
+To do this, you need to set up security keys in GitLab using SSH. This tutorial is a guide to this.
+
+If you're using GitLab only for storage, you do not need this tutorial.
+
+=== The Process
+
+This tutorial assumes you have installed https://git-scm.com/[Git] and, if you're using Windows, https://gitforwindows.org/}[Git for Windows].
+
+You will need:
+
+* Your computer and browser.
+* An open terminal window:
+** In Windows, open GitBash for this process.
+** In MacOS, open Spotlight Search and search for "Terminal." Click it to Open it.
+** In Linux, Terminal is often on the toolbar by default. If not, open the main menu and search "Terminal". Click it to open it. 
+   
+* https://www.openssh.com/[OpenSSH], which is pre-installed with Windows, MacOS, and most Linux distributions.
+** OpenSSH must be version 6.5 or higher. You can check it by typing \verb|ssh -V| into any terminal.
+ 
+To pair your computer to GitLab with SSH:
+
+. Generate an SSH key by entering this in the terminal:
+ 
+    ssh-keygen -t ed25519
+ 
+. Press Enter and a confirmation will appear:
+
+        Generating public/private ed25519 key pair.
+        Enter file in which to save the key (/home/user/.ssh/id_ed25519):
+
+. Press Enter to accept the location. When prompted, press Enter again to skip adding a passphrase.
++
+NOTE: You can add a passphrase here, but this tutorial continues under the assumption you did not.
++
+. Copy the contents of the SSH key, using the following:
+** For Windows, copy the following into a GitBash:
+    cat ~/.ssh/id_ed25519.pub | clip
+** For MacOS, copy this into your terminal to copy to clipboard. 
+    tr -d '\n' < ~/.ssh/id_ed25519.pub| pbcopy
+** In Linux, input the following, and manually copy the output: 
+    cat ~/.ssh/id_ed25519.pub
++
+. In your browser, go to your GitLab Dashboard. 
+. Click your icon, and select "Edit Profile"
++
+image:editprofile.jpg[]
++
+. In the sidebar select "SSH Keys." As this is your first a page with the following will appear.
+image:sshgitlab.jpg[]
+. Paste the key's contents into the "Key" box.
+. Add a title, and click "Add Key."
+
+You can now use Git to clone your repositories. After this, you can pull changes from, and push changes to your GitLab projects. For more information on this see the https://git-scm.com/doc[Git reference guide]. 
+
+For more information on options with SSH keys on GitLab, see https://docs.gitlab.com/ee/user/ssh.html[this page].
+
+\notebox{Alternatively, GPG keys can be used to link your GitLab to your computer. A guide to this is available on the GitLab Website, https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/[here].
