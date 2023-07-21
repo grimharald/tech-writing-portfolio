@@ -1,0 +1,22 @@
+site:
+  title: Huw Jones - CV 
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://grimharald.github.io/cv-site-antora/cv-overview/1/index.html
+  start_page: cv-overview::index.adoc
+
+content:
+  sources:
+    - url: https://github.com/grimharald/antora-storage
+      branch: HEAD
+
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
