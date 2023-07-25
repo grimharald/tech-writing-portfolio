@@ -10,4 +10,7 @@ Currently, this file includes
     - Also includes pdf of final result.
 - Asciidoc CV, created with the help fo asciidoctor-web-pdf
     - Includes code file, and the assisting code files, such as `.css` stylesheets.
-    - The final result pdf. 
+    - Also includes final result pdf. 
+- Antora CV site, based on Antora default UI, generated with Antora.
+    - Includes all contentfor generation. 
+    - Also includes links to original content, and the CV site.
