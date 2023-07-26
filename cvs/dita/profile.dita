@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_vm3_v3z_bq">
+  <title>Profile</title>
+  <body>
+ <table>
+   <tgroup cols="2">
+    <tbody>
+    <row>
+     <entry><image href="_images/huw.jpeg" placement="break" align="center" scale ="25"></image></entry>
+     <entry>
+      <ul>
+     <li><image href="_images/map.png" scale="2"></image> British/Irish Citizen - Can work in EU and UK Legally.</li>
+
+     <li><image href="_images/map.png" scale="2"></image> Well Travelled - Lived in Taiwan, Korea, and China.</li>
+     
+     <li><image href="_images/mic.png" scale="1"></image> Stand Up Comedian - Performed and Written comedy since 2012.</li>
+     
+     <li><image href="_images/Gym.png" scale="1"></image> Exercise - Regularly lift free weights and do yoga.</li>
+    </ul>
+     </entry>
+    </row>
+  
+    <row>
+    <entry>
+       <ul>
+     <li><image href="_images/asciidoc.png" scale="1"></image> Asciidoc - Long Time Competent User.</li>
+
+     <li><image href="_images/latex.png" scale="0.75"></image> LaTex - Long Time Competent User.</li>
+     
+     <li><image href="_images/markdown.png" scale="5"></image> Markdown - Long Time Competent User.</li>
+     
+     <li><image href="_images/dita.png" scale="4"></image> DITA-XML - Basic Understanding for Documentation.</li>
+
+     <li><image href="_images/tux.png" scale="0.5"></image> Linux Mint and Ubuntu - Keen user since Ubuntu 11.10.</li>
+     
+     <li><image href="_images/tux.png" scale="0.5"></image> USB Linux - Familiartity with USB based distributions; Tails OS, MX etc.</li>
+    </ul>  
+    </entry>
+    
+    <entry>
+    <ul>
+     <li><image href="_images/England.png" scale="1.5"></image> English - Native Language</li>
+     <li><image href="_images/southk.jpg" scale="1.5"></image> Korean - Professional Conversational Fluency</li>
+     <li><image href="_images/china.png" scale="1.5"></image> Chinese - Professional Conversational Fluency</li>
+     <li><image href="_images/iceland.jpg" scale="1.5"></image> Icelandic - Passed Citizenship Test</li>
+    </ul>
+    </entry>
+    </row>
+    
+   </tbody>
+  </tgroup>
+ </table>
+
+</body>
+</topic>
