@@ -6,8 +6,26 @@
  <table>
    <tgroup cols="2">
     <tbody>
+
     <row>
      <entry><image href="_images/huw.jpeg" placement="break" align="center" scale ="25"></image></entry>
+     <entry>
+     <ul>
+     <li>
+     <image href="_images/mail.png" scale="0.6"></image> <xref href="mailto:huwcoverdalejones@gmail.com" scope="external" format="html"/>
+     </li>
+     <li><image href="_images/map.png" scale="1.75"></image> Seltjarnarnes, Iceland
+     </li>
+     <li>
+     <image href="_images/phone.png" scale="1"></image> + 354 784-1195
+     </li>
+     <li>
+     <image href="_images/linkedin.png" scale="1"></image> <xref href="https://www.linkedin.com/in/huw-jones-9541b147/" scope = "external" format = "html"> Linkedin </xref>
+     </li>
+  </ul>
+     </entry>
+  </row>
+  <row>
      <entry>
       <ul>
      <li><image href="_images/map.png" scale="2"></image> British/Irish Citizen - Can work in EU and UK Legally.</li>
@@ -19,9 +37,7 @@
      <li><image href="_images/Gym.png" scale="1"></image> Exercise - Regularly lift free weights and do yoga.</li>
     </ul>
      </entry>
-    </row>
   
-    <row>
     <entry>
        <ul>
      <li><image href="_images/asciidoc.png" scale="1"></image> Asciidoc - Long Time Competent User.</li>
@@ -37,6 +53,9 @@
      <li><image href="_images/tux.png" scale="0.5"></image> USB Linux - Familiartity with USB based distributions; Tails OS, MX etc.</li>
     </ul>  
     </entry>
+    </row>
+    
+    <row>
     
     <entry>
     <ul>
