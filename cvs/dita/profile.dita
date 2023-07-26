@@ -3,13 +3,14 @@
 <topic id="topic_vm3_v3z_bq">
   <title>Profile</title>
   <body>
- <table>
+ <table frame="none">
    <tgroup cols="2">
     <tbody>
 
     <row>
-     <entry><image href="_images/huw.jpeg" placement="break" align="center" scale ="25"></image></entry>
+     <entry><image href="_images/huw.jpeg" placement="break" align="center" scale ="30"></image></entry>
      <entry>
+     <title>Contact</title>
      <ul>
      <li>
      <image href="_images/mail.png" scale="0.6"></image> <xref href="mailto:huwcoverdalejones@gmail.com" scope="external" format="html"/>
@@ -22,12 +23,9 @@
      <li>
      <image href="_images/linkedin.png" scale="1"></image> <xref href="https://www.linkedin.com/in/huw-jones-9541b147/" scope = "external" format = "html"> Linkedin </xref>
      </li>
-  </ul>
-     </entry>
-  </row>
-  <row>
-     <entry>
-      <ul>
+     </ul>
+     <title>Overview</title>
+     <ul>
      <li><image href="_images/map.png" scale="2"></image> British/Irish Citizen - Can work in EU and UK Legally.</li>
 
      <li><image href="_images/map.png" scale="2"></image> Well Travelled - Lived in Taiwan, Korea, and China.</li>
@@ -35,11 +33,9 @@
      <li><image href="_images/mic.png" scale="1"></image> Stand Up Comedian - Performed and Written comedy since 2012.</li>
      
      <li><image href="_images/Gym.png" scale="1"></image> Exercise - Regularly lift free weights and do yoga.</li>
-    </ul>
-     </entry>
-  
-    <entry>
-       <ul>
+     </ul>
+     <title>Technical Skills</title>
+      <ul>
      <li><image href="_images/asciidoc.png" scale="1"></image> Asciidoc - Long Time Competent User.</li>
 
      <li><image href="_images/latex.png" scale="0.75"></image> LaTex - Long Time Competent User.</li>
@@ -49,16 +45,10 @@
      <li><image href="_images/dita.png" scale="4"></image> DITA-XML - Basic Understanding for Documentation.</li>
 
      <li><image href="_images/tux.png" scale="0.5"></image> Linux Mint and Ubuntu - Keen user since Ubuntu 11.10.</li>
-     
+     </ul>
+     <title>Languages</title>
+     <ul>
      <li><image href="_images/tux.png" scale="0.5"></image> USB Linux - Familiartity with USB based distributions; Tails OS, MX etc.</li>
-    </ul>  
-    </entry>
-    </row>
-    
-    <row>
-    
-    <entry>
-    <ul>
      <li><image href="_images/England.png" scale="1.5"></image> English - Native Language</li>
      <li><image href="_images/southk.jpg" scale="1.5"></image> Korean - Professional Conversational Fluency</li>
      <li><image href="_images/china.png" scale="1.5"></image> Chinese - Professional Conversational Fluency</li>
