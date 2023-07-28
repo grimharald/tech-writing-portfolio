@@ -4,4 +4,6 @@
  <title>Huw Jones - Cirriculum Vitae</title>
 
  <topicref href="profile.dita"/>
+ <topicref href="work-history.dita"/>
+ <topicref href="education.dita"/>
 </map>

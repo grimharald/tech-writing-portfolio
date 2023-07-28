@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_vm3_v3z_bq">
+  <title>Work History</title>
+  <body>
+  <table frame="bottom">
+    <tgroup cols="2">
+    <thead>
+    <row>
+    <entry>
+    Time Period
+    </entry>
+    <entry>
+    Role and Company Information
+    </entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>
+    <title>Feb 2021 - Apr 2023</title>
+    </entry>
+    <entry>
+    <title>Technical Writer - Tern Systems</title>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    <title>Kopavogur, Iceland</title>
+    </cite>
+      <ul>   
+        <li>
+        Authored, reviewed, and edited technical documentation on all Tern Pojects.</li>
+        <li>
+        Spearheaded conversion process documents to create a cohesive pdf output.
+        </li>
+        <li>
+        Created documentation templates for all documents.
+        </li>
+        <li>
+        Oversaw documents in Office tools, specifically Google Docs, and code formats, primarily Asciidoc.
+        </li>
+        <li>
+        Learned Asciidoc, Markdown, LaTeX, and DITA-XML for the role.
+        </li>
+    </ul>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    <title>Jul 2019 - Feb 2021</title>
+    </entry>
+    <entry>
+    <title>DPM Technician - Alvotech</title>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    Reykjavik, Iceland
+    </cite>
+    <ul>
+      <li>
+      Carried out general clinical manufacturing duties in a Pharmaceutical GMP enivronment.
+      </li>
+      <li>
+      Developed technical knowledge of clinical manufacturing tools, including Autoclave and VHP Chamber.
+    </li>
+    <li>
+      Updated process documentation, including SOPs.
+    </li>
+    </ul>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    <title>Jul 2017 - Jul 2019</title>
+    </entry>
+    <entry>
+    <title>Process Engineer - Omega Algae</title>  
+    </entry>
+    </row>
+    <row>
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    Hveragerði, Iceland
+    </cite>
+    <ul>
+      <li>
+      Carried out general clinical manufacturing duties in a Pharmaceutical GMP enivronment.
+      </li>
+      <li>
+      Developed technical knowledge of clinical manufacturing tools, including Autoclave and VHP Chamber.
+    </li>
+    <li>
+      Updated process documentation, including SOPs.
+    </li>
+    </ul>
+    </entry>
+    </row>
+    </tbody>
+    </tgroup>
+  </table>
+  </body>
+  </topic>
