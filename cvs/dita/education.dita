@@ -6,7 +6,7 @@
   <table frame="bottom">
     <tgroup cols="2">
     <thead>
-    <row>
+    <row rowsep="1">
     <entry>
     Time Period
     </entry>
@@ -51,7 +51,7 @@
     <title>Certificate in Teaching English for Academic Purposes</title>
     </entry>
     </row>
-    <row>
+    <row rowsep="1">
     <entry>
     </entry>
     <entry>
@@ -78,7 +78,7 @@
     <title>CELTA</title>  
     </entry>
     </row>
-    <row>
+    <row rowsep="1">
     <entry>
     </entry>
     <entry>
@@ -103,7 +103,7 @@
     <title>BA Chinese and Korean</title>  
     </entry>
     </row>
-    <row>
+    <row rowsep="1">
     <entry>
     </entry>
     <entry>

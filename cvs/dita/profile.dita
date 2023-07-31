@@ -3,22 +3,33 @@
 <topic id="topic_vm3_v3z_bq">
   <title>Profile</title>
   <body>
- <table frame="none">
-   <tgroup cols="2">
-    <colspec colname="c1" colwidth="1*"/>
-    <colspec colname="c2" colwidth="2*"/>
-    <tbody>
-    <row>
-     <entry colname="c2">
+<table frame="bottom">
+  <tgroup cols="1">
+     <tbody>
+     <row>
+     <entry>
         <image href="_images/huw.jpeg" placement="break" align="center" scale ="30"></image>
      </entry>
-     <entry>
-     </entry>
+     </row>
+     </tbody>
+  </tgroup>
+</table>
 
-    </row>
-    <row>
-    <entry colname="c 1">    
+<table frame="bottom">
+   <tgroup cols="2">
+   <thead>
+   <row>
+   <entry>
     <title>Contact</title>
+   </entry>
+   <entry>
+        <title>Overview</title>
+   </entry>
+   </row>
+   </thead>
+    <tbody>
+    <row>
+    <entry>    
       <ul>
         <li>
         <image href="_images/mail.png" scale="0.6"></image> <xref href="mailto:huwcoverdalejones@gmail.com" scope="external" format="html"/>
@@ -33,8 +44,7 @@
         </li>
      </ul>
     </entry>
-    <entry colname="c1">    
-        <title>Overview</title>
+    <entry>    
         <ul>
         <li><image href="_images/map.png" scale="2"></image> British/Irish Citizen - Can work in EU and UK Legally.</li>
 
@@ -46,9 +56,26 @@
         </ul>
     </entry>
   </row>
-  <row>
-     <entry colname="c1">
+
+   </tbody>
+  </tgroup>
+ </table>
+
+<table frame="bottom">
+   <tgroup cols="2">
+   <thead>
+      <row>
+      <entry>
       <title>Technical Skills</title>
+      </entry>
+      <entry>
+      <title>Languages</title>
+      </entry>
+      </row>
+   </thead>
+   <tbody>
+    <row>
+    <entry>
         <ul>
         <li><image href="_images/asciidoc.png" scale="1"></image> Asciidoc - Long Time Competent User.</li>
 
@@ -62,8 +89,7 @@
         <li><image href="_images/tux.png" scale="0.5"></image> USB Linux - Familiartity with USB based distributions; Tails OS, MX etc.</li>
         </ul>
       </entry>
-  <entry colname="c1">
-  <title>Languages</title>
+  <entry>
       <ul>
           <li><image href="_images/England.png" scale="1.5"></image> English - Native Language</li>
           <li><image href="_images/southk.jpg" scale="1.5"></image> Korean - Professional Conversational Fluency</li>
@@ -78,4 +104,5 @@
  </table>
 
 </body>
+
 </topic>
