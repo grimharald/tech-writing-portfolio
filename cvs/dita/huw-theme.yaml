@@ -1,0 +1,20 @@
+page: 
+  size: A4
+  orientation: portrait
+  top: 20mm
+  bottom: 20mm
+  inside: 10mm
+  mirror-margins: false
+pdf:
+  cover: false
+  toc: false
+
+pdf2:
+  font:
+    sans: 'Lato'
+    serif: 'Lato'
+    monospaced: 'Courier New, Courier, Arial Unicode MS, Tahoma, Batang, SimSun'
+
+header: 
+  content: '{chapter}'
+  text-align: center
