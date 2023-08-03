@@ -92,7 +92,7 @@
    <tgroup cols="1">
    <tbody>
 
-    <row>
+    <row rowsep="1">
    <entry>
    <uicontrol><title>Contact</title></uicontrol> 
    </entry>
@@ -110,6 +110,9 @@
         </li>
         <li>
         <image href="_images/linkedin.png" scale="1"></image> <xref href="https://www.linkedin.com/in/huw-jones-9541b147/" scope = "external" format = "html"> Linkedin </xref>
+        </li>
+        <li>
+        <image href="_images/github.jpg" scale="1"></image> <xref href="https://github.com/grimharald/tech-writing-portfolio/" scope = "external" format = "html"> GitHub </xref>
         </li>
      </ul>
     </entry>
@@ -132,6 +135,7 @@
         <li><image href="_images/dita.png" scale="4"></image> DITA-XML</li>
 
         <li><image href="_images/tux.png" scale="0.5"></image> Linux</li>
+        <li><image href="_images/git.png" scale="2"></image> Git</li>
         </ul>
       </entry>
       </row>
@@ -196,24 +200,6 @@
     <tbody>
     <row>
     <entry>
-    <title>Apr 2023 - Jul 2023 </title>
-    </entry>
-    <entry>
-    <title>C++ Fundamentals: Game Programming For Beginners</title>
-    </entry>
-    </row>
-    <row rowsep="1">
-    <entry>
-    </entry>
-    <entry>
-    <image href="_images/map.png" scale="2"></image> 
-    <cite>
-    <title>Gamdev.tv, Online</title>
-    </cite>
-    </entry>
-    </row>
-    <row>
-    <entry>
     <title>Aug 2015 - Oct 2017 </title>
     </entry>
     <entry>
@@ -228,6 +214,10 @@
     <cite>
     <title>University of Iceland, Reykjavik, Iceland</title>
     </cite>
+    <ul>
+    <li><uicontrol>Grade: 7.5</uicontrol></li>
+    <li>Thesis on Microhydropower.</li>
+    </ul>
     </entry>
     </row>
     <row>
@@ -246,6 +236,9 @@
     <cite>
     SOAS, London, UK
     </cite>
+    <ul>
+    <li><uicontrol>Grade: Pass</uicontrol></li>
+    </ul>
     </entry>
     </row>
     <row>
@@ -263,6 +256,9 @@
     <image href="_images/map.png" scale="2"></image> 
     <cite>
     Highbury College, Portsmouth, UK
+    <ul>
+    <li><uicontrol>Grade: Pass</uicontrol></li>
+    </ul>
     </cite>
     </entry>
     </row>
@@ -282,6 +278,11 @@
     <cite>
     SOAS, London, UK
     </cite>
+    <ul>
+    <li><uicontrol>Grade: 2:1</uicontrol></li>
+    <li> Focus on Languages and History.</li>
+    <li> Exchange periods in Beijing and Seoul.</li>
+    </ul>
     </entry>
     </row>
     </tbody>
