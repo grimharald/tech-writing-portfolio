@@ -12,5 +12,8 @@ Currently, this file includes
     - Includes code file, and the assisting code files, such as `.css` stylesheets.
     - Also includes final result pdf. 
 - Antora CV site, based on Antora default UI, generated with Antora.
-    - Includes all contentfor generation. 
+    - Includes all content for generation. 
     - Also includes links to original content, and the CV site.
+- A DITA-XML CV, generated with Dita-OT
+    - Includes all content.
+    - Includes generation instructions.

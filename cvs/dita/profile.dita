@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_vm3_v3z_bq">
+<title>Huw Jones - CV</title>
+  
+<body>
+<table frame="bottom">
+  <tgroup cols="2">
+     <tbody>
+     <row rowsep="1">
+     <entry>
+        <image href="_images/huw.jpeg" placement="break" align="center" scale ="35"></image>
+     </entry>
+     <entry>
+      <table frame="none">
+    <tgroup cols="2">
+      <thead>
+      <row rowsep="1">
+      <entry>
+     <title> Work History</title> 
+      </entry>
+      <entry>
+      </entry>
+      </row>
+      </thead>
+    
+    <tbody>
+    <row>
+    <entry>
+    <title>Feb 2021 - Apr 2023</title>
+    </entry>
+    <entry>
+    <title>Technical Writer - Tern Systems</title>
+    </entry>
+    </row>
+    <row rowsep="1">
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    <title>Kopavogur, Iceland</title>
+    </cite>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    <title>Jul 2019 - Feb 2021</title>
+    </entry>
+    <entry>
+    <title>DPM Technician - Alvotech</title>
+    </entry>
+    </row>
+    <row rowsep="1">
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    Reykjavik, Iceland
+    </cite>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    <title>Jul 2017 - Jul 2019</title>
+    </entry>
+    <entry>
+    <title>Process Engineer - Omega Algae</title>  
+    </entry>
+    </row>
+    <row>
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    Hveragerði, Iceland
+    </cite>
+    </entry>
+    </row>
+    </tbody>
+    </tgroup>
+  </table>
+     </entry>
+    </row>
+
+    <row>
+     <entry>
+   <!--First Table -->
+    <table frame="bottom">
+   <tgroup cols="1">
+   <tbody>
+
+    <row rowsep="1">
+   <entry>
+   <uicontrol><title>Contact</title></uicontrol> 
+   </entry>
+   </row>
+    <row rowsep="1">
+    <entry>    
+      <ul>
+        <li>
+        <image href="_images/mail.png" scale="0.4"></image> <xref href="mailto:huwcoverdalejones@gmail.com" scope="external" format="html"/>
+        </li>
+        <li><image href="_images/map.png" scale="2.4"></image> Seltjarnarnes, Iceland
+        </li>
+        <li>
+        <image href="_images/phone.png" scale="1"></image> + 354 784-1195
+        </li>
+        <li>
+        <image href="_images/linkedin.png" scale="1"></image> <xref href="https://www.linkedin.com/in/huw-jones-9541b147/" scope = "external" format = "html"> Linkedin </xref>
+        </li>
+        <li>
+        <image href="_images/github.jpg" scale="1"></image> <xref href="https://github.com/grimharald/tech-writing-portfolio/" scope = "external" format = "html"> GitHub </xref>
+        </li>
+     </ul>
+    </entry>
+  </row>
+<row>
+      <entry>
+      <uicontrol><title>Technical Skills</title></uicontrol>
+      </entry>
+      </row>
+ 
+    <row rowsep="1">
+    <entry>
+        <ul>
+        <li><image href="_images/asciidoc.png" scale="1"></image> Asciidoc</li>
+
+        <li><image href="_images/latex.png" scale="0.75"></image> LaTeX </li>
+        
+        <li><image href="_images/markdown.png" scale="5"></image> Markdown</li>
+        
+        <li><image href="_images/dita.png" scale="4"></image> DITA-XML</li>
+
+        <li><image href="_images/tux.png" scale="0.5"></image> Linux</li>
+        <li><image href="_images/git.png" scale="2"></image> Git</li>
+        </ul>
+      </entry>
+      </row>
+      <row>
+      <entry>
+      <uicontrol><title>Overview</title></uicontrol>
+      </entry>
+      </row>
+      <row rowsep="1">
+    <entry>    
+        <ul>
+        <li><image href="_images/map.png" scale="2"></image> British/Irish Citizen</li>
+
+        <li><image href="_images/map.png" scale="2"></image> Well Travelled</li>
+        
+        <li><image href="_images/mic.png" scale="1"></image> Stand Up Comedian</li>
+        
+        <li><image href="_images/Gym.png" scale="1"></image> Yoga and Weight Training</li>
+        </ul>
+    </entry>
+    </row>
+    
+
+
+
+  <row>
+   <entry>
+        <uicontrol><title>Languages</title></uicontrol>
+   </entry>
+  </row>
+  <row rowsep="1">
+  <entry>
+      <ul>
+          <li><image href="_images/England.png" scale="1.5"></image> English - Native Language</li>
+          <li><image href="_images/southk.jpg" scale="1.5"></image> Korean - Conversational Fluency</li>
+          <li><image href="_images/china.png" scale="2"></image> Chinese - Conversational Fluency</li>
+          <li><image href="_images/iceland.jpg" scale="2.5"></image> Icelandic - Passed Citizenship Test</li>
+      </ul>
+  </entry>
+  </row>
+
+
+
+     </tbody>
+  </tgroup>
+ </table>
+ </entry>
+
+ <!--next table-->
+     <entry>
+     <table frame="bottom">
+    <tgroup cols="2">
+     <thead>
+      <row rowsep="1">
+      <entry>
+     <title> Education</title> 
+      </entry>
+      <entry>
+      </entry>
+      </row>
+      </thead>
+    <tbody>
+    <row>
+    <entry>
+    <title>Aug 2015 - Oct 2017 </title>
+    </entry>
+    <entry>
+    <title>MSc Environment and Natural Resources - Renewable Energy</title>
+    </entry>
+    </row>
+    <row rowsep="1">
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    <title>University of Iceland, Reykjavik, Iceland</title>
+    </cite>
+    <ul>
+    <li><uicontrol>Grade: 7.5</uicontrol></li>
+    <li>Thesis on Microhydropower.</li>
+    </ul>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    <title>Mar-Aug 2014</title>
+    </entry>
+    <entry>
+    <title>Certificate in Teaching English for Academic Purposes</title>
+    </entry>
+    </row>
+    <row rowsep="1">
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    SOAS, London, UK
+    </cite>
+    <ul>
+    <li><uicontrol>Grade: Pass</uicontrol></li>
+    </ul>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    <title>Aug - Sep 2012</title>
+    </entry>
+    <entry>
+    <title>CELTA</title>  
+    </entry>
+    </row>
+    <row rowsep="1">
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    Highbury College, Portsmouth, UK
+    <ul>
+    <li><uicontrol>Grade: Pass</uicontrol></li>
+    </ul>
+    </cite>
+    </entry>
+    </row>
+    <row>
+    <entry>
+    <title>Sep 2007 - Jul 2012</title>
+    </entry>
+    <entry>
+    <title>BA Chinese and Korean</title>  
+    </entry>
+    </row>
+    <row rowsep="1">
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    SOAS, London, UK
+    </cite>
+    <ul>
+    <li><uicontrol>Grade: 2:1</uicontrol></li>
+    <li> Focus on Languages and History.</li>
+    <li> Exchange periods in Beijing and Seoul.</li>
+    </ul>
+    </entry>
+    </row>
+    </tbody>
+  </tgroup>
+  </table>
+     </entry>
+</row>
+
+
+
+     
+     
+     <!--End of main table -->
+     </tbody>
+  </tgroup>
+</table>
+</body>
+</topic>

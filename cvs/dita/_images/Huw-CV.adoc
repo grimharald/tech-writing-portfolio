@@ -1,0 +1,136 @@
+:imagesdir: images
+
+= Huw Coverdale Jones: Technical Writer
+Huw Coverdale Jones
+
+[.info]
+== !
+image:huw.jpeg[role = profil]
+
+=== Huw Coverdale Jones
+
+[contact]
+- image:mail.png[,20,20] Huwcoverdalejones@gmail.com 
+
+- image:map.png[,20,20] Seltjarnarnes, Iceland 
+
+- image:phone.png[,20,20] + 354 784-1195 
+
+- image:linkedin.png[,20,20] https://www.linkedin.com/in/huw-jones-9541b147/[huw-jones-9541b147] 
+
+
+=== !
+
+==== Languages
+
+image:England.png[,20,20] English - Native Language
+
+image:southk.jpg[,20,20] Korean - Professional Conversational Fluency
+
+image:china.png[,20,20] Chinese - Professional Conversational Fluency
+
+image:iceland.jpg[,20,20] Icelandic - Passed Citizenship Test
+
+==== Technical Skills
+
+image:asciidoc.png[,20,20] Asciidoc - Long Time Competent User.
+
+image:latex.png[,20,20] LaTex - Long Time Competent User.
+
+image:markdown.png[,20,20] Markdown - Long Time Competent Use.
+
+image:git.png[,20,20] Git - General Competency for Version Management.
+
+image:dita.png[,20,20] DITA-XML - Basic Understanding for Documentation.
+
+image:tux.png[,20,20] Linux Mint and Ubuntu - Keen user since Ubuntu 11.10.
+
+image:tux.png[,20,20] USB Linux - Familiartity with USB based distributionsl; Tails OS, MX etc.
+
+==== Profile
+
+image:map.png[,20,20] British/Irish Citizen - Can work in EU and UK Legally.
+
+image:map.png[,20,20] Well Travelled - Lived in Taiwan, Korea, and China.
+
+image:mic.png[,20,20] Stand Up Comedian - Performed and Written comedy since 2012
+
+image:Gym.png[,20,20] Exercise - Regularly lift free weights and do yoga.
+
+
+[.chronologie]
+== !
+
+=== Education 
+
+==== 2015-2017: MSc Environment and Natural Resources - Renewable Energy 
+
+image:map.png[,20,20] University of Iceland, Reykjavik, Iceland
+
+_Awarded by Faculty of Industrial Engineering, Mechanical Engineering and Computer Science_
+
+*Grade: 7.5*
+
+==== Mar-Aug 2014: Certificate in Teaching English for Academic Purposes
+
+image:map.png[,20,20] School of Oriental and African Studies, London, UK
+
+_Professional Qualification in Teaching English for Higher Education Students._
+
+*Grade: Pass*
+
+====  Aug - Sep 2012: CELTA
+
+image:map.png[,20,20] Highbury College, Portsmouth, UK
+
+_Certificate in English Language Teaching to Adults._
+
+*Grade: Pass*
+
+
+==== 2007-2012 BA Chinese and Korean
+
+image:map.png[,20,20] School of Oriental and African Studies London, UK
+
+_In depth language degree in Chinese and Korean, including studies in Beijing and Seoul._
+
+*Grade: 2:1*
+
+
+=== Work Experience
+
+==== 2021-2023 Technical Writer
+
+image:map.png[,20,20] _Tern Systems, Kopavogur, Iceland_
+
+- Authored, reviewed, and edited technical documentation on all Tern Pojects.
+
+- Spearheaded conversion process documents to create a cohesive pdf output.
+
+- Created documentation templates for all documents.
+
+- Oversaw documents in Office tools, specifically Google Docs, and code formats, primarily Asciidoc.
+
+- Learned Asciidoc, Markdown, LaTeX, and DITA-XML for the role.
+
+==== 2019-2021 DPM Technician
+
+image:map.png[,20,20] _Alvotech, Reyjavik, Iceland_
+
+- Carried out general clinical manufacturing duties in a Pharmaceutical GMP enivronment.
+
+- Developed technical knowledge of clinical manufacturing tools, including Autoclave and VHP Chamber.
+
+- Updated process documentation, including SOPs.
+
+==== 2017-2019 Process Engineer
+
+image:map.png[,20,20] _Omega Algae, Reyjavik, Iceland_
+
+- Planned and built plumbing solutions for the algae reactor systems.
+
+- Monitored, maintained, and repaired of electrical systems, sensors, and pumps.
+
+- Wrote and updated technical documentation, both SOPs, and experimental data reports.
+
+- Used and maintained centrifuge, with focus on cleaning, repair, and diagnostics.
