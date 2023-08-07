@@ -2,111 +2,138 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Huw C Jones",
-    "label": "Programmer",
+    "label": "Technical Writer",
     "image": "",
     "email": "huwcoverdalejones@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
+    "phone": "(354) 784-1195",
+    "url": "https://grimharald.github.io/cv-site-antora/cv-overview/1/index.html",
     "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Seltjarnarnes, Iceland"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "LinkedIn",
+        "username": "Huw C Jones",
+        "url": "https://www.linkedin.com/in/huw-jones-9541b147/"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "GitHub",
+        "username": "grimharald",
+        "url": "https://github.com/grimharald/tech-writing-portfolio"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Tern Systems",
+      "location": "Kopavogur, Iceland",
+      "description": "ATC software company.",
+      "position": "Technical Writer",
+      "url": "https://www.tern.systems/",
+      "startDate": "2021-02-01",
+      "endDate": "2023-04-01",
+      "summary": "Tern Systems designs and builds Air Traffic Management software. This includes; Polaris, an Air Traffic Management Software, Aries, a Tower software, and Orion, which is used to train pilots, ATCs, and drivers.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Authored, reviewed, and edited technical documentation on all Tern Pojects.",
+        "Spearheaded conversion process documents to create a cohesive pdf output.",
+        "Created documentation templates for all documents.",
+        "Oversaw documents in Office tools, specifically Google Docs, and code formats, primarily Asciidoc.",
+        "Learned Asciidoc, Markdown, LaTeX, and DITA-XML for the role"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Alvotech",
+      "location": "Kopavogur, Iceland",
+      "description": "Pharmaceutical manufacturing.",
+      "position": "DPM Technician",
+      "url": "https://www.alvotech.com/",
+      "startDate": "2019-07-01",
+      "endDate": "2021-02-01",
+      "summary": "Alovtech manufactures generic pharmaceuticals.",
+      "highlights":[
+        "Carried out general clinical manufacturing duties in a Pharmaceutical GMP workplace.",
+        "Developed technical knowledge of clinical manufacturing tools, including Autoclave and VHP Chamber.",
+        "Updated process documentation, including SOPs."
+      ]
+    },
+    {
+      "name": "Omega Algae",
+      "location": "Hveragerði, Iceland",
+      "description": "Algae focused microfarm and processing plant in Iceland.",
+      "position": "Process Engineer",
+      "url": "https://www.tern.systems/",
+      "startDate": "2017-06-01",
+      "endDate": "2019-07-01",
+      "summary": "Omega Algae cultivates and farms algae using Iceland's natural resources. This includes making use of Geothermal power to heat and power the systems.",
+      "highlights":[
+        "Planned and built plumbing solutions for the algae reactor systems.",
+        "Monitored, maintained, and repaired of electrical systems, sensors, and pumps.",
+        "Wrote and updated technical documentation, both SOPs, and experimental data reports.",
+        "Used and maintained centrifuge, with focus on cleaning, repair, and diagnostics."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Iceland",
+      "url": "https://www.hi.is/",
+      "area": "Environment and Natural Resources - Renewable Energy",
+      "studyType": "Master",
+      "startDate": "2015-08-23",
+      "endDate": "2017-10-10",
+      "score": "7.5",
+      "courses": [
+        "Thesis on microhydrolectric energy storage.",
+        "Included courses in Statistics using R, and engineering classes in Renewable Energy."
+      ]
+    },
+    {
+      "institution": "School of Oriental and African Studies",
+      "url": "https://www.soas.ac.uk/",
+      "area": "Chinese and Korean",
+      "studyType": "Master",
+      "startDate": "2007-09-20",
+      "endDate": "2012-07-18",
+      "score": "Upper Second",
+      "courses": [
+        "In depth language degree in Chinese and Korean, including studies in Beijing and Seoul."
+        ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Technical Writing",
+      "level": "Professional",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Asciidoc",
+        "LaTeX ",
+        "Markdown",
+        "CSS",
+        "JSON",
+        "DITA-XML"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Professional",
+      "keywords": [
+        "Version Management",
+        "Pull and Merge Requests",
+        "GitHub",
+        "GitLab"
+      ]
+
+    },
+    {
+      "name": "Software Development",
+      "level": "Basic",
+      "keywords": [
+        "C++",
+        "Python",
+        "COBOL"
       ]
     }
   ],
@@ -114,46 +141,40 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Professional competency"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Professional competency"
+    },
+    {
+      "language": "Icelandic",
+      "fluency": "Passed Citizenship test"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Exercise",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Yoga",
+        "Weightlifting"
+      ]
+    },
+    {
+      "name": "Travel",
+      "keywords": [
+        "Previously lived in China, South Korea, and Taiwan.",
+        "Travelled extensively in Europe and East Asia"
       ]
     }
   ],
-  "references": [
+  "references": [ 
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
+      "name": "Sigurjon Pall",
+      "reference": "Director of Customer Success at Tern Systems. Can be reached at (354) 424-5500."
     }
   ],
   "meta": {
