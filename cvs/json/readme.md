@@ -1,6 +1,6 @@
 # JSON CV
 
-A JSON generated CV site. 
+A JSON generated CV site. View it [here](https://grimharald.github.io/json-cv/).
 
 Contains:
 - Source code in JSON.
