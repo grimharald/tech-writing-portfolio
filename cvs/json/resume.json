@@ -1,0 +1,185 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Huw C Jones",
+    "label": "Technical Writer",
+    "image": "images/huw.jpeg",
+    "email": "huwcoverdalejones@gmail.com",
+    "phone": "(354) 784-1195",
+    "url": "https://grimharald.github.io/cv-site-antora/cv-overview/1/index.html",
+    "summary": "Technical writer with a diverse background in languages and technology. Professional technical writer, amateur linguist and occasional game maker.",
+    "location": {
+      "city": "Seltjarnarnes, Iceland"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Huw C Jones",
+        "url": "https://www.linkedin.com/in/huw-jones-9541b147/"
+      },
+      {
+        "network": "GitHub",
+        "username": "grimharald",
+        "url": "https://github.com/grimharald/tech-writing-portfolio"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tern Systems",
+      "location": "Kopavogur, Iceland",
+      "description": "ATC software company.",
+      "position": "Technical Writer",
+      "url": "https://www.tern.systems/",
+      "startDate": "2021-02-01",
+      "endDate": "2023-04-01",
+      "summary": "Tern Systems designs and builds Air Traffic Management software. This includes; Polaris, an Air Traffic Management Software, Aries, a Tower software, and Orion, which is used to train pilots, ATCs, and drivers.",
+      "highlights": [
+        "Authored, reviewed, and edited technical documentation on all Tern Pojects.",
+        "Spearheaded conversion process documents to create a cohesive pdf output.",
+        "Created documentation templates for all documents.",
+        "Oversaw documents in Office tools, specifically Google Docs, and code formats, primarily Asciidoc.",
+        "Learned Asciidoc, Markdown, LaTeX, and DITA-XML for the role"
+      ]
+    },
+    {
+      "name": "Alvotech",
+      "location": "Kopavogur, Iceland",
+      "description": "Pharmaceutical manufacturing.",
+      "position": "DPM Technician",
+      "url": "https://www.alvotech.com/",
+      "startDate": "2019-07-01",
+      "endDate": "2021-02-01",
+      "summary": "Alovtech manufactures generic pharmaceuticals.",
+      "highlights":[
+        "Carried out general clinical manufacturing duties in a Pharmaceutical GMP workplace.",
+        "Developed technical knowledge of clinical manufacturing tools, including Autoclave and VHP Chamber.",
+        "Updated process documentation, including SOPs."
+      ]
+    },
+    {
+      "name": "Omega Algae",
+      "location": "Hveragerði, Iceland",
+      "description": "Algae focused microfarm and processing plant in Iceland.",
+      "position": "Process Engineer",
+      "url": "https://www.tern.systems/",
+      "startDate": "2017-06-01",
+      "endDate": "2019-07-01",
+      "summary": "Omega Algae cultivates and farms algae using Iceland's natural resources. This includes making use of Geothermal power to heat and power the systems.",
+      "highlights":[
+        "Planned and built plumbing solutions for the algae reactor systems.",
+        "Monitored, maintained, and repaired of electrical systems, sensors, and pumps.",
+        "Wrote and updated technical documentation, both SOPs, and experimental data reports.",
+        "Used and maintained centrifuge, with focus on cleaning, repair, and diagnostics."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Iceland",
+      "url": "https://www.hi.is/",
+      "area": "Environment and Natural Resources - Renewable Energy",
+      "studyType": "Master",
+      "startDate": "2015-08-23",
+      "endDate": "2017-10-10",
+      "score": "7.5",
+      "courses": [
+        "Thesis on microhydrolectric energy storage.",
+        "Included courses in Statistics using R, and engineering classes in Renewable Energy."
+      ]
+    },
+    {
+      "institution": "School of Oriental and African Studies",
+      "url": "https://www.soas.ac.uk/",
+      "area": "Chinese and Korean",
+      "studyType": "Master",
+      "startDate": "2007-09-20",
+      "endDate": "2012-07-18",
+      "score": "Upper Second",
+      "courses": [
+        "In depth language degree in Chinese and Korean, including studies in Beijing and Seoul."
+        ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Technical Writing",
+      "level": "Professional",
+      "keywords": [
+        "Asciidoc",
+        "LaTeX ",
+        "Markdown",
+        "CSS",
+        "JSON",
+        "DITA-XML"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Professional",
+      "keywords": [
+        "Version Management",
+        "Pull and Merge Requests",
+        "GitHub",
+        "GitLab"
+      ]
+
+    },
+    {
+      "name": "Software Development",
+      "level": "Basic",
+      "keywords": [
+        "C++",
+        "Python",
+        "COBOL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Professional competency"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Professional competency"
+    },
+    {
+      "language": "Icelandic",
+      "fluency": "Passed Citizenship test"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Exercise",
+      "keywords": [
+        "Yoga",
+        "Weightlifting"
+      ]
+    },
+    {
+      "name": "Travel",
+      "keywords": [
+        "Previously lived in China, South Korea, and Taiwan.",
+        "Travelled extensively in Europe and East Asia"
+      ]
+    }
+  ],
+  "references": [ 
+    {
+      "name": "Tern Systems",
+      "reference": "Sigurjon Pall; Director of Customer Success at Tern Systems. Can be reached at (354) 424-5500."
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
