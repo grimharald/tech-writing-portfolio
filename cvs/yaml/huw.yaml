@@ -1,0 +1,47 @@
+contact:
+  date_of_birth: 08/01/1989
+  email: huwcoverdalejones@gmail.com
+  job: Technical Writer
+  location:
+    address: Tjarnarbol
+    city: Seltjarnarnes
+    country: ''
+    state: ''
+    zip: '170'
+  name: Huw C Jones
+  phone: '+3547841195'
+  summary: ''
+education:
+- degree: MSc ENR
+  end_date: Oct 2017
+  institution: Haskoli Islands
+  start_date: Aug 2015
+  website: https://www.hi.is/visindastarf/rannsoknastofnanir
+experiences:
+- company: Tern Systems
+  end_date: Apr 2023
+  position: Tech Writer
+  start_date: Feb 2021
+  summary: ''
+  tags: []
+  website: https://www.tern.is
+hobbies:
+- details: Weights and Yoga
+  name: Gym
+- details: Stand up since 2012
+  name: Comedy
+languages:
+- level: High
+  name: Chinese
+profiles:
+- network: Linkedin
+  url: https://www.linkedin.com/in/huw-jones-9541b147/
+- network: GitHub
+  url: https://github.com/grimharald
+projects:
+- description: Techy woo
+  name: TEch
+  url: https://www.google.com
+skills:
+- level: 100
+  name: Asciidoc
