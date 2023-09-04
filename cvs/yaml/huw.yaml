@@ -5,43 +5,87 @@ contact:
   location:
     address: Tjarnarbol
     city: Seltjarnarnes
-    country: ''
+    country: 'Iceland'
     state: ''
     zip: '170'
   name: Huw C Jones
   phone: '+3547841195'
   summary: ''
 education:
-- degree: MSc ENR
+- degree: MSc Environment and Natural Resources - Renewable Energy Economics, Policy, and Sustainability.
   end_date: Oct 2017
   institution: Haskoli Islands
   start_date: Aug 2015
   website: https://www.hi.is/visindastarf/rannsoknastofnanir
+- degree: Certificate in Teaching English for Academic Purposes
+  end_date: Sept 2015
+  institution: SOAS, University of London
+  start_date: Feb 2015
+  website: https://www.soas.ac.uk
+- degree: CELTA
+  end_date: Sep 2012
+  institution: Highbury College, Portsmouth
+  start_date: Aug 2012
+  website: https://www.soas.ac.uk
+- degree: BA Chinese and Korean
+  end_date: Jul 2012
+  institution: SOAS, University of London
+  start_date: Sep 2007
+  website: https://www.soas.ac.uk
 experiences:
 - company: Tern Systems
   end_date: Apr 2023
-  position: Tech Writer
+  position: Technical Writer
   start_date: Feb 2021
   summary: ''
   tags: []
   website: https://www.tern.is
+- company: Alvotech
+  end_date: Feb 2021
+  position: DPM Technician
+  start_date: Jul 2019
+  summary: ''
+  tags: []
+  website: https://www.alvotech.is
+- company: Omega Algae
+  end_date: Jul 2019
+  position: Process Engineer
+  start_date: Jun 2017
+  summary: ''
+  tags: []
+  website: https://www.alvotech.is
 hobbies:
-- details: Weights and Yoga
-  name: Gym
-- details: Stand up since 2012
+- details: Regularly lift weights and practice yoga.
+  name: Excercise
+- details: Written and Performed Stand-Up Since 2012. 
   name: Comedy
 languages:
-- level: High
+- level: Native
+  name: English
+- level: Professional
   name: Chinese
+- level: Professional
+  name: Korean
+- level: Basic
+  name: Icelandic
 profiles:
 - network: Linkedin
   url: https://www.linkedin.com/in/huw-jones-9541b147/
 - network: GitHub
   url: https://github.com/grimharald
-projects:
-- description: Techy woo
-  name: TEch
-  url: https://www.google.com
+
 skills:
 - level: 100
   name: Asciidoc
+- level: 100
+  name: Markdown
+- level: 90
+  name: LaTeX
+- level: 90
+  name: Linux
+- level: 80
+  name: DITA-XML
+- level: 60
+  name: Git
+- level: 40
+  name: C++
