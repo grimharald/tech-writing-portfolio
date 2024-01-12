@@ -36,4 +36,5 @@ The system will  probably prompt you with a permissions prompt, accept this to c
 
 Vim will now open a Windows installation wizard, beginning with a select language prompt page. 
 
-![](images/vim-language-prompt.png)
+![](images/vim-language-prompt.png =250x)
+
