@@ -160,7 +160,7 @@ sudo pacman -S vim
 ````
 This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
 
-To open a file in vim, use `vim <filename>`.
+To open a specific file in vim, use `vim <filename>`.
 
 ### OpenSUSE
 
@@ -173,4 +173,4 @@ sudo zypper install vim
 ````
 This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
 
-To open a file in vim, use `vim <filename>`.
+To open a specific file in vim, use `vim <filename>`.
