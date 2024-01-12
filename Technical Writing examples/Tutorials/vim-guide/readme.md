@@ -24,4 +24,16 @@ Compiled by <Your OS>
 ````
 Followed by a features list, with your included features marked with `+`, and excluded features marked with a `-`.
 
-If your system does not have vim installed, your terminal will return a message resembling `vim command not found` or `command not found "vim"`
+If your system does not have vim installed, your terminal will return a message resembling `vim command not found` or `command not found "vim"`. 
+In this case, follow the relevant following chapter to install vim on your system. 
+
+# Installing Vim in Windows
+
+In Windows, it is easiest to install Vim from an [executable file (.exe)](https://www.techtarget.com/whatis/definition/executable-file-exe-file). 
+Download the relevant executable file from the [Vim downloads page](https://www.vim.org/download.php), and double-click to run it. 
+
+The system will  probably prompt you with a permissions prompt, accept this to continue. 
+
+Vim will now open a Windows installation wizard, beginning with a select language prompt page. 
+
+![](images/vim-language-prompt.png)
