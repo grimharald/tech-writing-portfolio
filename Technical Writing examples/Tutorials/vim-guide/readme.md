@@ -1,4 +1,4 @@
-#  Vim - A Beginner's Guide
+#  Vim - A Beginner's Guide (WIP)
 
 Vim, or vi improved, is an open-source text editor which is favoured by experienced many engineers and developers due to its minimal interface and features that allow for fast coding.
 
@@ -90,7 +90,7 @@ To install with a `.dmg` file:
 - Open launchpad and search `MacVim`.
 - Open it and the page will open at the Vim startup page.
 
-![](./images/macvim-open.png)
+![](images/macvim-open.png)
 
 #### Install With Hombrew
 
@@ -116,3 +116,61 @@ mvim -v
 
 - If the version is returned, MacVim is successfully installed. Open it with `mvim`.
 
+## Install on Linux
+
+Naturally, Linux installation of vim depends on your distribution and package manager. 
+
+As noted before, there is a reasonable chance that vim was included with the Linux distribution on install. This can be tested with the `vim --version` command listed above in [the installation section](#installation). 
+
+### Debian Based Distributions
+
+Debian, Linux Mint, Ubuntu, and other Debian based distributions use the [Advanced Packaging Tool](https://wiki.debian.org/Apt) for package management. 
+
+Install vim from the command line with this command:
+
+````sh
+sudo apt install vim
+````
+This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
+
+To open a specific file in vim, use `vim <filename>`.
+
+### Fedora Based Distributions
+
+CentOS, Fedora, and Red Hat systems use [DNF](https://rpm-software-management.github.io/) for package management
+
+Install vim from the command line with this command:
+
+````sh
+sudo dnf install vim
+````
+
+This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
+
+To open a specific file in vim, use `vim <filename>`.
+
+### Arch Linux Based Distributions
+
+Arch Linux and its derivatives, such as Manjaro, uses [Pacman](https://archlinux.org/pacman/) for package management.
+
+Install vim from the command line with this command:
+
+````sh
+sudo pacman -S vim
+````
+This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
+
+To open a file in vim, use `vim <filename>`.
+
+### OpenSUSE
+
+OpenSUSE uses [Zypper](https://en.opensuse.org/Portal:Zypper) for package management.
+
+Install vim from the command line with this command:
+
+````sh
+sudo zypper install vim
+````
+This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
+
+To open a file in vim, use `vim <filename>`.
