@@ -160,7 +160,7 @@ To enter all of these commands first type `:` to open the command input at the b
 The basic commands to use when first using Vim are:
 
 - `:q`: Closes the open Vim and file.
-    - If you have made changes, Vim will refuse to quit, use `:qw` to save these changes and quit. 
+    - If you have made changes, Vim will refuse to quit, use `:wq` to save these changes and quit. 
     - IF you want to discard these changes use `:q!`.
 - `:w`: Saves the current file, with `w` meaning "write".
 - `x`: Like `qw`, this will write the file, then quit. 
@@ -180,5 +180,35 @@ To navigate Vim in command mode, use the following commands (these do not use `:
 
 There are many more commands, but these are the basic ones you need to know. To get used to this navigation mode, you can use the website [Vim Adventures](https://vim-adventures.com/), which is an adventure game that teaches you to instinctively use the Vim navigation tools.
 
-## Using Vim for Code
+## Using Vim to Make and Edit Code
+
+To make a file in vim, open your desired repository in a terminal, and input `vim <file name>`. 
+
+![](images/vim-open-file.png)
+
+This will open a new blank file, in command mode.
+
+![](images/vim-new-file-open.png)
+
+Press `i` to go into insert mode, and type your code. 
+
+![](images/vim-hello-world.png)
+
+Press `Esc`, then `:w` to save your changes. 
+
+To edit pre-existing code, stay in command mode and use the following keys and shortcuts:
+
+- Press `dd` to delete the current line. This also cuts the content to the clipboard. 
+- Press `yy` to copy ("yank") the current line. 
+- Press `p` to paste copied or cut content to the line your cursor is on.
+- Press `P` to paste the copied or cut content to the line below your cursor.
+- Press `u` to undo your last change, this includes changes made in command and insert mode. 
+- Press `U` to undo all recent changes on the line your cursor is currently on. 
+
+When finished, type input the `:wq` or `:q` command to close your file, and Vim itself.
+
+## Conclusion
+
+By following this guide, you have become a beginner in the use of the powerful, if difficult, Vim.
+To improve your Vim skills further, visit the [Vim documentation site], or use the `vimtutor` command in your terminal.
 
