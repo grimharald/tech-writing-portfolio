@@ -210,5 +210,5 @@ When finished, type input the `:wq` or `:q` command to close your file, and Vim 
 ## Conclusion
 
 By following this guide, you have become a beginner in the use of the powerful, if difficult, Vim.
-To improve your Vim skills further, visit the [Vim documentation site], or use the `vimtutor` command in your terminal.
+To improve your Vim skills further, visit the [Vim documentation site](https://www.vim.org/docs.php), or use the `vimtutor` command in your terminal.
 
