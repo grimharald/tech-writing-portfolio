@@ -116,61 +116,69 @@ mvim -v
 
 - If the version is returned, MacVim is successfully installed. Open it with `mvim`.
 
-## Install on Linux
+### Install on Linux
 
 Naturally, Linux installation of vim depends on your distribution and package manager. 
 
 As noted before, there is a reasonable chance that vim was included with the Linux distribution on install. This can be tested with the `vim --version` command listed above in [the installation section](#installation). 
 
-### Debian Based Distributions
+Use the following command line commands to install Vim if it is not present:
 
-Debian, Linux Mint, Ubuntu, and other Debian based distributions use the [Advanced Packaging Tool](https://wiki.debian.org/Apt) for package management. 
-
-Install vim from the command line with this command:
+- On Debian based distributions:
 
 ````sh
 sudo apt install vim
 ````
-This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
 
-To open a specific file in vim, use `vim <filename>`.
-
-### Fedora Based Distributions
-
-CentOS, Fedora, and Red Hat systems use [DNF](https://rpm-software-management.github.io/) for package management
-
-Install vim from the command line with this command:
+- On Fedora based distributions:
 
 ````sh
 sudo dnf install vim
 ````
-
-This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
-
-To open a specific file in vim, use `vim <filename>`.
-
-### Arch Linux Based Distributions
-
-Arch Linux and its derivatives, such as Manjaro, uses [Pacman](https://archlinux.org/pacman/) for package management.
-
-Install vim from the command line with this command:
+- Arch Linux based distributions
 
 ````sh
 sudo pacman -S vim
 ````
-This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
 
-To open a specific file in vim, use `vim <filename>`.
-
-### OpenSUSE
-
-OpenSUSE uses [Zypper](https://en.opensuse.org/Portal:Zypper) for package management.
-
-Install vim from the command line with this command:
+- On OpenSUSE:
 
 ````sh
 sudo zypper install vim
 ````
-This will begin the installation. After installation use `vim` as a command to open a blank document in Vim.
+
+This will begin the installation. After installation use `vim` in your terminal command line to open a blank document in Vim.
 
 To open a specific file in vim, use `vim <filename>`.
+
+## Using and Navigating Vim 
+
+Vim uses a series of commands to operate in its standard mode, and is noted for being hard to quit once installed and opened. 
+
+To enter all of these commands first type `:` to open the command input at the bottom of Vim. 
+
+The basic commands to use when first using Vim are:
+
+- `:q`: Closes the open Vim and file.
+    - If you have made changes, Vim will refuse to quit, use `:qw` to save these changes and quit. 
+    - IF you want to discard these changes use `:q!`.
+- `:w`: Saves the current file, with `w` meaning "write".
+- `x`: Like `qw`, this will write the file, then quit. 
+
+To navigate Vim in command mode, use the following commands (these do not use `:` as a prefix unless stated):
+
+- `i`: Go to insert mode, enabling you to input and edit code. While input mode is active, Vim will display `-- INSERT --` in the bottom left.
+    - Press `Esc` to leave input mode, and return to command mode.
+- In command mode, navigate around a file using `h` (left), `j`(down), `k` (up), and `l`(right).
+    - The standard keyboard arrow keys also work in the same way, but this navigation keeps your fingers on the middle line of your keyboard, by design, to enabling faster coding.
+- Press `w` to move to the next word and `B` (capital necessary) will move you back a word.
+- Press `b` to move to the beginning of a word end `e` to move to the end of a word.
+- Similarly press `0` to move to the start of a line amd `$` to move to the end of a line.
+- Type `:` then a number to jump to that numbers line in the editor, for example `:160` will jump to line 160.
+    - An equivalent command is `160G`, which has the same effect. 
+- Press `gg` and `G` to move to the first and last line of a file respectively. 
+
+There are many more commands, but these are the basic ones you need to know. To get used to this navigation mode, you can use the website [Vim Adventures](https://vim-adventures.com/), which is an adventure game that teaches you to instinctively use the Vim navigation tools.
+
+## Using Vim for Code
+
