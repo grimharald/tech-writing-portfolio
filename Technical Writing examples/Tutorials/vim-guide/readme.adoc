@@ -63,7 +63,7 @@ image::images/vim-wizard-page-5.png[]
 
 The final page, confirms you have installed Vim on Windows. Congratulations! Click finish to end this process.
 
-image:::images/vim-wizard-last-page.png[]
+image::images/vim-wizard-last-page.png[]
 
 Open your start menu, type `Vim` to find Vim an open it. It will open in a Powershell environment as seen below.
 
@@ -85,7 +85,7 @@ To install with a `.dmg` file:
 - Open the [MacVim homepage](https.://macvim.org/)
 - Click `Download MacVim`.
 
-![](images/macvim-page.png)
+image::images/macvim-page.png[]
 
 - When the `.dmg` is downloaded, double click it to open the application installation page.
 ![](images/macvim-install.png)
@@ -93,7 +93,7 @@ To install with a `.dmg` file:
 - Open launchpad and search `MacVim`.
 - Open it and the page will open at the Vim startup page.
 
-![](images/macvim-open.png)
+image::images/macvim-open.png[width=350]
 
 ==== Install With Hombrew
 
