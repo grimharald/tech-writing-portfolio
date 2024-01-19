@@ -26,6 +26,21 @@
   },
   "work": [
     {
+      "name": "GraphAware",
+      "location": "Remote",
+      "description": "Mission-Critical Graph Analytics",
+      "position": "Technical Writer",
+      "url": "https://www.tern.systems/",
+      "startDate": "2021-02-01",
+      "endDate": "2023-04-01",
+      "summary": "Fueled by customer success, GraphAware has become a globally recognized graph software development company, offering powerful graph analytics and data science expertise since 2013.",
+      "highlights": [
+    "Authored, reviewed, and edited documents for Operations Manual and Orchestra User Guide.",
+    "Gained knowledge writing for data science teams as primary technical writer on the Orchestra team.",
+    "Built on Asciidoc knowledge by developing documents in an Antora website environment."
+      ]
+    },
+    {
       "name": "Tern Systems",
       "location": "Kopavogur, Iceland",
       "description": "ATC software company.",
