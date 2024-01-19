@@ -25,6 +25,24 @@
       </thead>
     
     <tbody>
+      <row>
+    <entry>
+    <title>Oct 2023 - Feb 2024</title>
+    </entry>
+    <entry>
+    <title>Technical Writer - GraphAware</title>
+    </entry>
+    </row>
+    <row rowsep="1">
+    <entry>
+    </entry>
+    <entry>
+    <image href="_images/map.png" scale="2"></image> 
+    <cite>
+    <title>Remote</title>
+    </cite>
+    </entry>
+    </row>
     <row>
     <entry>
     <title>Feb 2021 - Apr 2023</title>
@@ -58,24 +76,6 @@
     <image href="_images/map.png" scale="2"></image> 
     <cite>
     Reykjavik, Iceland
-    </cite>
-    </entry>
-    </row>
-    <row>
-    <entry>
-    <title>Jul 2017 - Jul 2019</title>
-    </entry>
-    <entry>
-    <title>Process Engineer - Omega Algae</title>  
-    </entry>
-    </row>
-    <row>
-    <entry>
-    </entry>
-    <entry>
-    <image href="_images/map.png" scale="2"></image> 
-    <cite>
-    Hveragerði, Iceland
     </cite>
     </entry>
     </row>
@@ -170,7 +170,7 @@
   <entry>
       <ul>
           <li><image href="_images/England.png" scale="1.5"></image> English - Native Language</li>
-          <li><image href="_images/southk.jpg" scale="1.5"></image> Korean - Conversational Fluency</li>
+          <li><image href="_images/southk.png" scale="1.5"></image> Korean - Conversational Fluency</li>
           <li><image href="_images/china.png" scale="2"></image> Chinese - Conversational Fluency</li>
           <li><image href="_images/iceland.jpg" scale="2.5"></image> Icelandic - Passed Citizenship Test</li>
       </ul>
@@ -216,7 +216,6 @@
     </cite>
     <ul>
     <li><uicontrol>Grade: 7.5</uicontrol></li>
-    <li>Thesis on Microhydropower.</li>
     </ul>
     </entry>
     </row>
@@ -280,8 +279,6 @@
     </cite>
     <ul>
     <li><uicontrol>Grade: 2:1</uicontrol></li>
-    <li> Focus on Languages and History.</li>
-    <li> Exchange periods in Beijing and Seoul.</li>
     </ul>
     </entry>
     </row>
