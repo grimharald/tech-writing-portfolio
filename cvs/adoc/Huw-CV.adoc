@@ -25,7 +25,7 @@ image:huw.jpeg[role = profil]
 
 image:England.png[,20,20] English - Native Language
 
-image:southk.jpg[,20,20] Korean - Professional Conversational Fluency
+image:southk.png[,20,20] Korean - Professional Conversational Fluency
 
 image:china.png[,20,20] Chinese - Professional Conversational Fluency
 
@@ -98,6 +98,15 @@ _In depth language degree in Chinese and Korean, including studies in Beijing an
 
 
 === Work Experience
+
+==== 2021-2023 Technical Writer
+image:map.png[,20,20] _GraphAware, Remote_
+
+- Authored, reviewed, and edited documents for Operations Manual and Orchestra User Guide.
+
+- Gained knowledge writing for data science teams as primary technical writer on the Orchestra team.
+
+- Built on Asciidoc knowledge by developing documents in an Antora website environment.
 
 ==== 2021-2023 Technical Writer
 
