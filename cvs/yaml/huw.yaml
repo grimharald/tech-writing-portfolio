@@ -33,6 +33,13 @@ education:
   start_date: Sep 2007
   website: https://www.soas.ac.uk
 experiences:
+- company: GraphAware
+  end_date: Feb 2024
+  position: Technical Writer
+  start_date: Oct 2023
+  summary: ''
+  tags: []
+  website: https://www.tern.is
 - company: Tern Systems
   end_date: Apr 2023
   position: Technical Writer
@@ -54,11 +61,6 @@ experiences:
   summary: ''
   tags: []
   website: https://www.alvotech.is
-hobbies:
-- details: Regularly lift weights and practice yoga.
-  name: Excercise
-- details: Written and Performed Stand-Up Since 2012. 
-  name: Comedy
 languages:
 - level: Native
   name: English
