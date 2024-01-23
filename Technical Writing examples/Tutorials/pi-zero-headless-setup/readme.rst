@@ -14,7 +14,6 @@ An even smaller Single board computer, it can be used for a lot a fun little pro
 Due to its small form factor, and comparatively weak HDMI signal, it's practical, even desirable, to set up a pi zero without a monitor using its headless features. 
 This document serves as a guide to precisely that process. 
 
-=======================================
 Step 1. Acquiring your Operating System
 =======================================
 
@@ -55,6 +54,5 @@ This process uses the Raspberry Pi OS, for the sake of simplicity:
 
 9. Remove the SD card when prompted.
 
-==========================
 Step 2. Installing Your OS
 ==========================
