@@ -48,11 +48,25 @@ This process uses the Raspberry Pi OS, for the sake of simplicity:
 
 .. image:: images/os-edit.png 
 
-7. Click `Save` on the customisation page, and then `Yes` on customisation prompt.
+7. Open the `Services Tab` and check `Enable SSH` and select `Use password authentication`.
 
-8. Confirm that you want the SD card to be written to and formatted, and wait for the process to finish.
+.. image:: images/services-os-edit-tab.png
 
-9. Remove the SD card when prompted.
+8. Click `Save` on the edit customisation popup, and then `Yes` on customisation prompt.
+
+9.  Confirm that you want the SD card to be written to and formatted, and wait for the process to finish.
+
+10.  Remove the SD card when prompted.
 
 Step 2. Installing Your OS
 ==========================
+
+This process is relatively simple; insert SD card into the Pi Zero W's SD card slot and plug it in to start it up. 
+
+As it starts up, it will set up Raspberry Pi OS according to the settings defined in the OS customisation.
+
+Connect to the Raspberry Pi Zero W with SSH
+===========================================
+
+The Pi Zero will connect to the WiFi automatically due to the set up in the previous step. 
+Now, take another computer and start it up. As long as both this PC and the Pi zero are on the 
