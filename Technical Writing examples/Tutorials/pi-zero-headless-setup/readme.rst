@@ -93,4 +93,4 @@ To use Putty to set up your headless Zero 2 W:
 
 .. image:: images/putty-login.png
 
-This will open the Command line interface of your Pi Zero 2 W.
+This will open the Command line interface of your Pi Zero 2 W. Next, we need to enable VNC, to get to the UI.
