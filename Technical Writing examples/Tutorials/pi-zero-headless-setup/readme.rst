@@ -6,7 +6,7 @@ A `Pi Zero W`<https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/> is yo
 
 An even smaller Single board computer, it can be used for a lot a fun little projects such as:
 
-* A  small form factor `WiFi extender`<https://hackaday.io/project/171296-truly-wifi-extender>_. 
+* A  small form factor `WiFi extender <https://hackaday.io/project/171296-truly-wifi-extender>`_. 
 * A mini `ad-blocker using Pi-hole`<https://pi-hole.net/>_.
 * A fun `video looper`<https://alexasteinbruck.medium.com/how-to-configure-your-raspberry-pi-zero-to-play-videos-in-a-loop-cheap-and-flexible-solution-for-42f7744ed5c5>_.
 * `Many many others`<https://hackaday.io/projects?page=1&tag=raspberry%20pi%20zero>_.
