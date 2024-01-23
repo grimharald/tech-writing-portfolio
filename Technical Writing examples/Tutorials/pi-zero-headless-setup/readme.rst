@@ -65,8 +65,32 @@ This process is relatively simple; insert SD card into the Pi Zero W's SD card s
 
 As it starts up, it will set up Raspberry Pi OS according to the settings defined in the OS customisation.
 
-Connect to the Raspberry Pi Zero W with SSH
-===========================================
+Step 3. Connect to the Raspberry Pi Zero 2 W with SSH
+=====================================================
 
-The Pi Zero will connect to the WiFi automatically due to the set up in the previous step. 
-Now, take another computer and start it up. As long as both this PC and the Pi zero are on the 
+The Pi Zero will connect to the WiFi automatically due to the set up in `Step 1_`. 
+
+Now, take another computer and start it up. As long as both this PC and the Pi zero are on the same WiFi, you can can access the Pi using SSH.
+
+To use SSH, you first need to install `Putty <www.putty.org>_`, an SSH client. 
+
+To install on Windows, download the `installer https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_`. 
+For Linux, see `these installation instructions https://www.ssh.com/academy/ssh/putty/linux_`, and follow `these instructions https://www.ssh.com/academy/ssh/putty/mac` for Mac.
+
+To use Putty to set up your headless Zero 2 W: 
+
+1. Open Putty, to bring up the start up page. 
+   * At this point, Windows will probably generate a security prompt, Click `Ok` to continue.
+   * Linux and MacOS may prompt you similarly.
+
+.. image:: images/putty-open-tab.png
+
+1. Ensure the `SSH` field is selected an input `raspberrypi` in the `Host Name (or IP address)`. Then click `Open`. (The port will default to `22`).
+
+.. image:: images/putty-open-tab.png
+
+2. Enter the username and password defined in Step 1.
+
+.. image:: images/putty-login.png
+
+This will open the Command line interface of your Pi Zero 2 W.
