@@ -69,14 +69,14 @@ As it starts up, it will set up Raspberry Pi OS according to the settings define
 Step 3. Connect to the Raspberry Pi Zero 2 W with SSH
 =====================================================
 
-The Pi Zero will connect to the WiFi automatically due to the set up in `Step 1 <Step 1. Acquiring your Operating System>`. 
+The Pi Zero will connect to the WiFi automatically due to the set up in `Step 1 <Step 1. Acquiring your Operating System>`_. 
 
 Now, take another computer and start it up. As long as both this PC and the Pi zero are on the same WiFi, you can can access the Pi using SSH.
 
-To use SSH, you first need to install `<Putty <www.putty.org>_>`, an SSH client. 
+To use SSH, you first need to install `<Putty <www.putty.org>>`_, an SSH client. 
 
-To install on Windows, download the `installer <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_>`. 
-For Linux, see `these installation instructions <https://www.ssh.com/academy/ssh/putty/linux_>`, and follow `these instructions <https://www.ssh.com/academy/ssh/putty/mac>` for Mac.
+To install on Windows, download the `installer <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_>`_. 
+For Linux, see `these installation instructions <https://www.ssh.com/academy/ssh/putty/linux>`_, and follow `these instructions <https://www.ssh.com/academy/ssh/putty/mac>_` for Mac.
 
 To use Putty to set up your headless Zero 2 W: 
 
