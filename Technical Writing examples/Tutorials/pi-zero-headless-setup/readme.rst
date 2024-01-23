@@ -2,7 +2,7 @@
 Pi Zero 2 W Headless Setup
 =========================
 
-A `Pi Zero 2 W <https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/>`_ is your pocket sized little brother of the `Raspberry Pi <https://www.raspberrypi.com/>`+.
+A `Pi Zero 2 W <https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/>`_ is your pocket sized little brother of the `Raspberry Pi <https://www.raspberrypi.com/>`_.
 
 An even smaller Single board computer, it can be used for a lot a fun little projects such as:
 
@@ -76,7 +76,7 @@ Now, take another computer and start it up. As long as both this PC and the Pi z
 To use SSH, you first need to install `<Putty <www.putty.org>>`_, an SSH client. 
 
 To install on Windows, download the `installer <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_>`_. 
-For Linux, see `these installation instructions <https://www.ssh.com/academy/ssh/putty/linux>`_, and follow `these instructions <https://www.ssh.com/academy/ssh/putty/mac>_` for Mac.
+For Linux, see `these installation instructions <https://www.ssh.com/academy/ssh/putty/linux>`_, and follow `these instructions <https://www.ssh.com/academy/ssh/putty/mac>`_ for Mac.
 
 To use Putty to set up your headless Zero 2 W: 
 
