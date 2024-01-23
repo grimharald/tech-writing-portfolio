@@ -14,6 +14,8 @@ An even smaller Single board computer, it can be used for a lot a fun little pro
 Due to its small form factor, and comparatively weak HDMI signal, it's practical, even desirable, to set up a pi zero without a monitor using its headless features. 
 This document serves as a guide to precisely that process. 
 
+.. _Step 1
+
 Step 1. Acquiring your Operating System
 =======================================
 
@@ -68,14 +70,14 @@ As it starts up, it will set up Raspberry Pi OS according to the settings define
 Step 3. Connect to the Raspberry Pi Zero 2 W with SSH
 =====================================================
 
-The Pi Zero will connect to the WiFi automatically due to the set up in `Step 1_`. 
+The Pi Zero will connect to the WiFi automatically due to the set up in :ref:`Step 1`. 
 
 Now, take another computer and start it up. As long as both this PC and the Pi zero are on the same WiFi, you can can access the Pi using SSH.
 
-To use SSH, you first need to install `Putty <www.putty.org>_`, an SSH client. 
+To use SSH, you first need to install `<Putty <www.putty.org>_>`, an SSH client. 
 
-To install on Windows, download the `installer https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_`. 
-For Linux, see `these installation instructions https://www.ssh.com/academy/ssh/putty/linux_`, and follow `these instructions https://www.ssh.com/academy/ssh/putty/mac` for Mac.
+To install on Windows, download the `<installer https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_>`. 
+For Linux, see `<these installation instructions https://www.ssh.com/academy/ssh/putty/linux_>`, and follow `<these instructions https://www.ssh.com/academy/ssh/putty/mac>` for Mac.
 
 To use Putty to set up your headless Zero 2 W: 
 
