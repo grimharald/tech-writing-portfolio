@@ -14,6 +14,8 @@ An even smaller Single board computer, it can be used for a lot a fun little pro
 Due to its small form factor, and comparatively weak HDMI signal, it's practical, even desirable, to set up a pi zero without a monitor using its headless features. 
 This document serves as a guide to precisely that process. 
 
+.. _step1:
+
 Acquiring your Operating System
 ===============================
 
@@ -69,11 +71,11 @@ As it starts up, it will set up Raspberry Pi OS according to the settings define
 Connect to the Raspberry Pi Zero 2 W with SSH
 =============================================
 
-The Pi Zero will connect to the WiFi automatically due to the set up in `the first step <Acquiring your Operating System>`_. 
+The Pi Zero will connect to the WiFi automatically due to the set up in step1_. 
 
 Now, take another computer and start it up. As long as both this PC and the Pi zero are on the same WiFi, you can can access the Pi using SSH.
 
-To use SSH, you first need to install `Putty <https://putty.org/putty.org>`_, an SSH client. 
+To use SSH, you first need to install `Putty <https://putty.org/>`_, an SSH client. 
 
 To install on Windows, download the `installer <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_>`_. 
 For Linux, see `these installation instructions <https://www.ssh.com/academy/ssh/putty/linux>`_, and follow `these instructions <https://www.ssh.com/academy/ssh/putty/mac>`_ for Mac.
@@ -127,11 +129,11 @@ Now, follow these steps:
 
 .. image:: images/vnc-input.png
 
-3. Input your username and password, set up in `chapter 1 <Acquiring your Operating System>`_.
+3. Input your username and password, set up in step1_.
 
 4. The Pi OS will open in your TigerVNC window. 
 
 .. image:: images/pi-os-splash.jpg
 
 You can now access your headless using TigerVNC, and use your Pi remotely from the PC used to set this up. 
-TigerVNC can also be installed on other PCs and accessed using the same credentials. 
+TigerVNC can also be installed on other PCs and accessed using the same credentials.
