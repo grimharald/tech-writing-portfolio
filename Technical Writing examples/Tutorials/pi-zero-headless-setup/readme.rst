@@ -30,30 +30,30 @@ This process uses the Raspberry Pi OS, for the sake of simplicity:
 
 .. image:: images/pi-imager.png
 
-3. Click `Choose Device` and select `Raspberry Pi Zero 2 W`
+3. Click ``Choose Device`` and select ``Raspberry Pi Zero 2 W``
 
 .. image:: images/select-image-device.png
 
-4. Click `Operating System` and select the recommended OS suggested by the imager.
+4. Click ``Operating System`` and select the recommended OS suggested by the imager.
 
 .. image:: images/select-os-imager.png
 
-5. Select next to open the `Use OS customisation?` prompt, and select `Edit Settings`.
+5. Select next to open the ``Use OS customisation?`` prompt, and select ``Edit Settings``.
 
 .. image:: images/imager-os-customisation.png
     
-6. Check the `Set username and password`, `Configure wireless LAN`, and `Set locale settings` boxes, and input the correct details.
+6. Check the ``Set username and password``, ``Configure wireless LAN``, and ``Set locale settings`` boxes, and input the correct details.
    
-   * Under `Configure wireless LAN` input the name of the wireless network under `SSID` and the password for that network.
+   * Under ``Configure wireless LAN`` input the name of the wireless network under ``SSID`` and the password for that network.
    * This will be necessary for the headless setup process.
 
 .. image:: images/os-edit.png 
 
-7. Open the `Services Tab` and check `Enable SSH` and select `Use password authentication`.
+7. Open the ``Services Tab`` and check ``Enable SSH`` and select ``Use password authentication``.
 
 .. image:: images/services-os-edit-tab.png
 
-8. Click `Save` on the edit customisation popup, and then `Yes` on customisation prompt.
+8. Click ``Save`` on the edit customisation popup, and then ``Yes`` on customisation prompt.
 
 9.  Confirm that you want the SD card to be written to and formatted, and wait for the process to finish.
 
@@ -82,7 +82,7 @@ To use Putty to set up your headless Zero 2 W:
 
 1. Open Putty, to bring up the start up page. 
 
-   * At this point, Windows will probably generate a security prompt, Click `Ok` to continue.
+   * At this point, Windows will probably generate a security prompt, Click ``Ok`` to continue.
    * Linux and MacOS may prompt you similarly.
 
 .. image:: images/putty-open-tab.png
@@ -110,7 +110,7 @@ This will open the BIOS configuration, where you can set up VNC access:
 2. Highlight ``VNC`` and press Enter.
 3. When the ``Would you like the VNC server to be enabled?`` prompt appears, navigate to ``<Yes>`` and press Enter. 
 4. Press Enter again when the ``<Ok>`` prompt appears.
-5. You will be redirected to the BIOS configuration page, highlight `Finish` at the bottom and press Enter.
+5. You will be redirected to the BIOS configuration page, highlight ``Finish`` at the bottom and press Enter.
 
 This has set the Pi up to allow VNC access, but you need to install a VNC viewer on the PC you want to access the Pi from, such as `Tiger VNC <https://tigervnc.org/>`_.
 Download it `here <https://github.com/TigerVNC/tigervnc/releases>`_, or install it from your command line using your package manager in Linux.
@@ -123,7 +123,7 @@ Now, follow these steps:
 
 2. Input the server name, mostly likely ``raspberrypi.local``, then click ``Connect``.
 
-   * Click `Yes` if a certificate prompt appears.
+   * Click ``Yes`` if a certificate prompt appears.
 
 .. image:: images/vnc-input.png
 
