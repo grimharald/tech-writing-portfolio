@@ -71,11 +71,11 @@ As it starts up, it will set up Raspberry Pi OS according to the settings define
 Connect to the Raspberry Pi Zero 2 W with SSH
 =============================================
 
-The Pi Zero will connect to the WiFi automatically due to the set up in step1_. 
+The Pi Zero will connect to the WiFi automatically due to the set up in `the first chapter <step1_>`_. 
 
 Now, take another computer and start it up. As long as both this PC and the Pi zero are on the same WiFi, you can can access the Pi using SSH.
 
-To use SSH, you first need to install `Putty <https://putty.org/>`_, an SSH client. 
+To use SSH, you first need to install `Putty <https://www.chiark.greenend.org.uk/~sgtatham/putty/>`_, an SSH client. 
 
 To install on Windows, download the `installer <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_>`_. 
 For Linux, see `these installation instructions <https://www.ssh.com/academy/ssh/putty/linux>`_, and follow `these instructions <https://www.ssh.com/academy/ssh/putty/mac>`_ for Mac.
@@ -93,7 +93,7 @@ To use Putty to set up your headless Zero 2 W:
 
 .. image:: images/putty-open-tab.png
 
-2. Enter the username and password defined in Step 1.
+2. Enter the username and password defined in `the first step <step1_>`_.
 
 .. image:: images/putty-login.png
 
@@ -114,8 +114,8 @@ This will open the BIOS configuration, where you can set up VNC access:
 4. Press Enter again when the `<Ok>` prompt appears.
 5. You will be redirected to the BIOS configuration page, highlight `Finish` at the bottom and press Enter.
 
-This has set the Pi up to allow VNC access, but you need to install a VNC viewer on the PC you want to access the Pi from, such as `Tiger VNC <https://tigervnc.org/>`.
-Download it `here <https://github.com/TigerVNC/tigervnc/releases>`, or install it from your command line using your package manager in Linux.
+This has set the Pi up to allow VNC access, but you need to install a VNC viewer on the PC you want to access the Pi from, such as `Tiger VNC <https://tigervnc.org/>`_.
+Download it `here <https://github.com/TigerVNC/tigervnc/releases>`_, or install it from your command line using your package manager in Linux.
 
 Now, follow these steps:
 
@@ -129,11 +129,11 @@ Now, follow these steps:
 
 .. image:: images/vnc-input.png
 
-3. Input your username and password, set up in step1_.
+3. Input your username and password, set up in `the first chapter <step1_>_`.
 
 4. The Pi OS will open in your TigerVNC window. 
 
 .. image:: images/pi-os-splash.jpg
 
 You can now access your headless using TigerVNC, and use your Pi remotely from the PC used to set this up. 
-TigerVNC can also be installed on other PCs and accessed using the same credentials.
+You cna also install TigerVNC on other PCs and access the Pi using the same credentials.
