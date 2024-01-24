@@ -14,8 +14,6 @@ An even smaller Single board computer, it can be used for a lot a fun little pro
 Due to its small form factor, and comparatively weak HDMI signal, it's practical, even desirable, to set up a pi zero without a monitor using its headless features. 
 This document serves as a guide to precisely that process. 
 
-.. _step1:
-
 Acquiring your Operating System
 ===============================
 
@@ -71,7 +69,7 @@ As it starts up, it will set up Raspberry Pi OS according to the settings define
 Connect to the Raspberry Pi Zero 2 W with SSH
 =============================================
 
-The Pi Zero will connect to the WiFi automatically due to the set up in `the first chapter <step1_>`_. 
+The Pi Zero will connect to the WiFi automatically due to the set up in the first chapter. 
 
 Now, take another computer and start it up. As long as both this PC and the Pi zero are on the same WiFi, you can can access the Pi using SSH.
 
@@ -89,11 +87,11 @@ To use Putty to set up your headless Zero 2 W:
 
 .. image:: images/putty-open-tab.png
 
-1. Ensure the `SSH` field is selected an input `raspberrypi` in the `Host Name (or IP address)`. Then click `Open`. (The port will default to `22`).
+1. Ensure the ``SSH`` field is selected an input ``raspberrypi`` in the ``Host Name (or IP address)``. Then click ``Open``. (The port will default to ``22``).
 
 .. image:: images/putty-open-tab.png
 
-2. Enter the username and password defined in `the first step <step1_>`_.
+1. Enter the username and password defined in the first step.
 
 .. image:: images/putty-login.png
 
@@ -108,10 +106,10 @@ First, run the following command in the Pi CLI:
 
 This will open the BIOS configuration, where you can set up VNC access: 
 
-1. Using the keyboard, highlight `Interface Options` and press Enter. 
-2. Highlight `VNC` and press Enter.
-3. When the `Would you like the VNC server to be enabled?` prompt appears, navigate to `<Yes>` and press Enter. 
-4. Press Enter again when the `<Ok>` prompt appears.
+1. Using the keyboard, highlight ``Interface Options`` and press Enter. 
+2. Highlight ``VNC`` and press Enter.
+3. When the ``Would you like the VNC server to be enabled?`` prompt appears, navigate to ``<Yes>`` and press Enter. 
+4. Press Enter again when the ``<Ok>`` prompt appears.
 5. You will be redirected to the BIOS configuration page, highlight `Finish` at the bottom and press Enter.
 
 This has set the Pi up to allow VNC access, but you need to install a VNC viewer on the PC you want to access the Pi from, such as `Tiger VNC <https://tigervnc.org/>`_.
@@ -123,17 +121,17 @@ Now, follow these steps:
 
 .. image:: images/vnc-open.png
 
-2. Input the server name, mostly likely `raspberrypi.local`, then click `Connect`.
+2. Input the server name, mostly likely ``raspberrypi.local``, then click ``Connect``.
 
    * Click `Yes` if a certificate prompt appears.
 
 .. image:: images/vnc-input.png
 
-3. Input your username and password, set up in `the first chapter <step1_>_`.
+3. Input your username and password, set up in the first chapter.
 
 4. The Pi OS will open in your TigerVNC window. 
 
 .. image:: images/pi-os-splash.jpg
 
 You can now access your headless using TigerVNC, and use your Pi remotely from the PC used to set this up. 
-You cna also install TigerVNC on other PCs and access the Pi using the same credentials.
+You can also install TigerVNC on other PCs and access the Pi using the same credentials.
