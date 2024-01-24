@@ -14,8 +14,8 @@ An even smaller Single board computer, it can be used for a lot a fun little pro
 Due to its small form factor, and comparatively weak HDMI signal, it's practical, even desirable, to set up a pi zero without a monitor using its headless features. 
 This document serves as a guide to precisely that process. 
 
-Step 1. Acquiring your Operating System
-=======================================
+Acquiring your Operating System
+===============================
 
 Generally, Raspberry Pi products run their OS from the micro SD card kept in the slot. 
 So, before starting your Pi Zero up, you need to flash the OS to an SD card.
@@ -59,21 +59,21 @@ This process uses the Raspberry Pi OS, for the sake of simplicity:
 
 10.  Remove the SD card when prompted.
 
-Step 2. Installing Your OS
-==========================
+Installing Your OS
+==================
 
 This process is relatively simple; insert SD card into the Pi Zero W's SD card slot and plug it in to start it up. 
 
 As it starts up, it will set up Raspberry Pi OS according to the settings defined in the OS customisation.
 
-Step 3. Connect to the Raspberry Pi Zero 2 W with SSH
-=====================================================
+Connect to the Raspberry Pi Zero 2 W with SSH
+=============================================
 
-The Pi Zero will connect to the WiFi automatically due to the set up in `Step 1 <Step 1. Acquiring your Operating System>`_. 
+The Pi Zero will connect to the WiFi automatically due to the set up in `the first step <Acquiring your Operating System>`_. 
 
 Now, take another computer and start it up. As long as both this PC and the Pi zero are on the same WiFi, you can can access the Pi using SSH.
 
-To use SSH, you first need to install `Putty <www.putty.org>`_, an SSH client. 
+To use SSH, you first need to install `Putty <https://putty.org/putty.org>`_, an SSH client. 
 
 To install on Windows, download the `installer <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html_>`_. 
 For Linux, see `these installation instructions <https://www.ssh.com/academy/ssh/putty/linux>`_, and follow `these instructions <https://www.ssh.com/academy/ssh/putty/mac>`_ for Mac.
@@ -96,3 +96,42 @@ To use Putty to set up your headless Zero 2 W:
 .. image:: images/putty-login.png
 
 This will open the Command line interface of your Pi Zero 2 W. Next, we need to enable VNC, to get to the UI.
+
+Set Up VNC Access
+================
+
+First, run the following command in the Pi CLI:
+
+   sudo raspi-config
+
+This will open the BIOS configuration, where you can set up VNC access: 
+
+1. Using the keyboard, highlight `Interface Options` and press Enter. 
+2. Highlight `VNC` and press Enter.
+3. When the `Would you like the VNC server to be enabled?` prompt appears, navigate to `<Yes>` and press Enter. 
+4. Press Enter again when the `<Ok>` prompt appears.
+5. You will be redirected to the BIOS configuration page, highlight `Finish` at the bottom and press Enter.
+
+This has set the Pi up to allow VNC access, but you need to install a VNC viewer on the PC you want to access the Pi from, such as `Tiger VNC <https://tigervnc.org/>`.
+Download it `here <https://github.com/TigerVNC/tigervnc/releases>`, or install it from your command line using your package manager in Linux.
+
+Now, follow these steps:
+
+1. Open TigerVNC, and the prompt will appear.
+
+.. image:: images/vnc-open.png
+
+2. Input the server name, mostly likely `raspberrypi.local`, then click `Connect`.
+
+   * Click `Yes` if a certificate prompt appears.
+
+.. image:: images/vnc-input.png
+
+3. Input your username and password, set up in `chapter 1 <Acquiring your Operating System>`_.
+
+4. The Pi OS will open in your TigerVNC window. 
+
+.. image:: images/pi-os-splash.jpg
+
+You can now access your headless using TigerVNC, and use your Pi remotely from the PC used to set this up. 
+TigerVNC can also be installed on other PCs and accessed using the same credentials. 
