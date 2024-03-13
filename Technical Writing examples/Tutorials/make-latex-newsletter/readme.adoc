@@ -1,0 +1,349 @@
+:imagesdir: images
+
+= Make a Newspaper in LaTeX
+
+
+https://www.latex-project.org/[LaTex] is a free to use text and typesetting software and language used to make adaptable documentation, first created in 1984. It is a distribution of https://tug.org/[TeX], and can be used to create an accurate pdf output. 
+
+LaTeX has been built upon by users, resulting in a lot of packages, most of which are pre made to fit certain specific document types, ranging from academic papers (its most common use) to newspapers, as this guide will cover. 
+
+This guide will cover: 
+
+* Setting up an Overleaf account. 
+* The code structure for creating a document.
+* Using the necessary packages to format your pdf as a newspaper. 
+
+== Creating an Overleaf Account
+
+This guide uses https://www.overleaf.com[Overleaf] for document generation, as it is the most accessible way to use LaTeX. You can also https://www.latex-project.org/get/[Install LaTeX locally], if you wish, but this guide does not cover that process. 
+
+To make an Overleaf account:
+
+* Go to the https://www.overleaf.com/[website] and click `Register`. 
+* You will be presented with this page, offering the registration options. 
+
+image::overleaf-register.png[width=700]
+
+* Here you have four options:
+** Input an email and password, and click `Register with your email`.
+*** In this case, you will then need to confirm your email in your inbox.
+** Register with Google. 
+*** Select this, then connect the relevant Google Account. 
+** Register with ORCID
+*** This will open an ORCID sign-in/confirmation window, confirm to connect this account to Overleaf. 
+
+After this, you will be redirected to the projects page.
+
+image::overleaf-projects.png[width=700]
+
+== Making Your Document
+
+This section will cover:
+
+* Physically creating your document. 
+* Adding the newspaper package for creation.
+* Customising your paper's name, motto, and other details.
+
+Create your first document by simply clicking the `New Project` button in the top left. Select `Blank Project` and name the document whatever you please.
+
+image::overleaf-new-project.png[width=400]
+
+You will be presented with an empty document in article format, with the package `graphicx` enabled.
+
+image::overleaf-basic-project.png[width=700]
+
+Before writing anything, we need to set up the document to include the `newspaper` CTAN package (https://ftp.gwdg.de/pub/ctan/macros/latex/contrib/newspaper/newspaper.pdf[documented here]), and supporting packages to use it smoothly.
+
+Begin by navigating to the preamble (everything before `\begin{document}`) and add `\usepackage{newspaper}` as the third line of the code. Recompile the document, and you will see the pdf generates a newspaper header. 
+
+image::overleaf-newspaper-header.png[width=600]
+
+As we haven't changed the paper's name, motto, volume, issue, or location, it currently uses the standard presets. Therefore, the example paper is named the _Committee Times_ and costs _ZERO DOLLARS_, etc.
+
+To customise these, we will use the following macros in the preamble;
+
+[source, Tex]
+----
+\SetPaperName{}
+\SetHeaderName{}
+\SetPaperLocation{}
+\SetPaperSlogan{}
+\SetPaperPrice{}
+\currentvolume{}
+\currentissue{}
+----
+
+Copy and paste this into your preamble, and input your chosen values.
+
+My newspaper is going to be called, Grand Gazette, cost nothing, be based in Reykjavik (RVK),  use the slogan "It's educational. Sort of." as its motto. Each page will begin with a helpful reminder of the paper name and date of the issue. Therefore, my preamble will include these:
+
+[source, Tex]
+----
+\SetPaperName{Grand Gazette}
+\SetHeaderName{Grand Gazette}
+\SetPaperLocation{RVK, Iceland}
+\SetPaperSlogan{"It's educational. Sort of."}
+\SetPaperPrice{Free}
+\currentvolume{01}
+\currentissue{01}
+----
+
+This will produce the following header on the main page:
+
+image::overleaf-main-header.png[width=600]
+
+Then this one on the following pages:
+
+image::overleaf-next-header.png[width=600]
+
+Now, we can move onto populating the document itself. However before I do that, I am going to add the following package lines into my newspapers preamble:
+
+* `\usepackage{amsfonts}` - Sets up the following package, `times` for use in the document.
+* `\usepackage{times}` - Changes the documents default document fonts to Helvetica, Times-Roman, and Courier. These are more "newspapery", at least in that they look more old fashioned 
+* `\usepackage{multicol}` - Enables multi-column document set up.
+* `\usepackage{enumitem}` - Basic package for using bulleted and numbered lists in documents. 
+
+Apart from `multicols`, I'd say all of these are optional, when creating the paper, and come down to personal taste. I'll cover their use in the next section. 
+
+Before moving onto the articles, themselves, I'll confirm my current preamble:
+
+[source, Tex]
+----
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{newspaper}
+\usepackage{blindtext}
+
+\title{Test}
+\author{Huw Coverdale Jones}
+\date{\today}
+
+\SetPaperName{Grand Gazette}
+\SetHeaderName{Grand Gazette}
+\SetPaperLocation{RVK, Iceland}
+\SetPaperSlogan{"It's educational. Sort of."}
+\SetPaperPrice{Free}
+\currentvolume{01}
+\currentissue{01}
+----
+
+Yours needn't be exactly like this, but use it as a guide. Note that `blindtext` is only here for demonstration purposes later.
+
+== Adding Articles
+
+This section will cover:
+
+* How to add articles. 
+* How to customise article headlines.
+* Adding pictures to your articles.
+
+The first thing note is that, when using the `newspaper` package, introduce an article using `\headline{}`, while most LaTeX document types use `\section{}`. This will still work in a newspaper document, but won't look quite right. 
+
+For example, using my preamble, the following code: 
+
+[source, Tex]
+----
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+
+\end{document}
+----
+
+Will produce this when you click `Compile` or `Recompile`:
+
+image::overleaf-using-section.png[width=600]
+
+Naturally, this looks more like an academic article (LaTeX's most popular usage).
+
+However this code:
+
+[source, Tex]
+----
+\begin{document}
+
+\maketitle
+
+\headline{Introduction}
+
+
+\end{document}
+
+----
+
+Will produce this:
+
+image::overleaf-using-headline.png[width=600]
+
+This automatically centres and underlines the title.
+
+However, you may notice that the Title loses a lot of its impact by not being emboldened, and having a small font size. https://ftp.gwdg.de/pub/ctan/macros/latex/contrib/newspaper/newspaper.pdf[The newspaper package documentation] actually encourages you to combine the `headline` macro with existing LaTeX format changes such as:
+
+* `\bf` - Makes the text wrapped by `{}` bold. 
+* `\large` - Makes the text wrapped by `{}` 11-12 point size. This is slightly larger than the default size in LaTeX, 10 point.
+* `\Large` - Makes the text wrapped by `{}` 12-14 point size.
+* `\LARGE` - Makes the text wrapped by `{}` 14-16 point size.
+* If you wish it to be larger, there are two higher steps; `\huge` and `\Huge`.
+
+Personally, I default to `\LARGE`, combined with `\bf`, but this is still up to personal preference. See https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles#Reference_guide[this overleaf guide] for more information on font sizes.
+
+So, with this in mind, try the following code:
+
+[source, Tex]
+----
+\begin{document}
+
+\maketitle
+
+\headline{\bf \LARGE Introduction}
+
+
+\end{document}
+----
+
+And you'll see a marked improvement in the headline:
+
+image::overleaf-improved-headline.png[width=600]
+
+By all means, play around with different styles and emphasis to find your preferred combination.
+
+Now, we can look at why I choose to use `muticols` package when writing my newspaper articles. Here I have generated two articles using `blindtext`. Pay special attention to the fact that I separate articles with `\closearticle`, as this is how you'll do the same: 
+
+[source, Tex]
+----
+\begin{document}
+
+\maketitle
+
+\headline{\bf \LARGE Introduction}
+\Blindtext[2]
+\closearticle
+
+\headline{\bf \LARGE Next}
+\Blindtext[2]
+\closearticle
+
+\end{document}
+----
+
+Producing the following result:
+
+image::overleaf-blindtext-paper.png[width=700]
+
+Two articles piled on top of each other, which frankly looks wrong. So now I'll make the whole document default to a 2 column format:
+
+[source, Tex]
+----
+\begin{document}
+\maketitle
+\begin{multicols}{2}
+
+\headline{\bf \LARGE Introduction}
+\Blindtext[2]
+\closearticle
+
+\headline{\bf \LARGE Next}
+\Blindtext[2]
+\closearticle
+
+\end{multicols}
+\end{document}
+----
+
+And I get something far more presentable: 
+
+image::overleaf-multicols.png[width=700]
+
+Now I'll change `\begin{multicols}{2}` to `\begin{multicols}{3}` and add another article:
+
+[source, Tex]
+----
+\begin{document}
+\maketitle
+\begin{multicols}{3}
+
+\headline{\bf \LARGE Introduction}
+\Blindtext[2]
+\closearticle
+
+\headline{\bf \LARGE Next}
+\Blindtext[2]
+\closearticle
+
+\headline{\bf \LARGE And Another}
+\Blindtext[2]
+\closearticle
+
+\end{multicols}
+\end{document}
+----
+
+And it looks a bit like this:
+
+image::overleaf-3-cols.png[width=600]
+
+Which you may prefer, though I tend to stick to 2. 
+
+NOTE: It is *very important* to put `begin{multicols}{}` *AFTER* `\maketitle`
+
+So, now you're almost ready to make your own articles, with the following steps:
+
+* Begin by setting up a preamble using my guide above, setting your paper name, motto, issue, location etc.
+* Begin a new article with `headline`, adding your chosen combination of `\bf`, `\LARGE` etc.
+* End each article with `\closearticle`
+* Click `Recompile` when you think it's ready. 
+
+== Adding Images
+
+Finally, I'll show you how to add pictures using the `graphicx` package which Overleaf includes in new documents as standard. 
+
+Including images in LaTeX is a notoriously unpredictable process. Nonetheless, the image sizes and positions can all be customised, so this process is very much worth learning.
+
+To demonstrate this process, I've created a test case guide to some churches in Iceland. It describes 3 churches, and naturally needs to use images.
+
+To include the images I used the `\includegraphics[]{}` macro, but had to make some adjustments. I have three images uploaded into the overleaf editor. I use the `upload` icon in Overleaf to add these:
+
+image::overleaf-upload-image.png[]
+
+For example simply using `\includegraphics[]{church-1.jpg}` for the first image created an issue, due to the size of the image:
+
+image::overleaf-bad-size.png[width=700]
+
+Fortunately, the `[]` in `\includegraphics[]{}` enables you to change the size of the included image. So I adjusted the command to `\includegraphics[0.18]{church-1.jpg}`, which produced this:
+
+image::overleaf-off-centre.png[width=700]
+
+However, as you see, it offsets the image, cutting into the next column.
+To fix this, I used the in-built LaTeX `centre` command, nesting the `\includegraphics` command like so:
+
+[source, Tex]
+----
+\begin{center}
+\includegraphics[scale=0.18]{church-1.jpg}    
+\end{center}
+----
+
+And was able to create the test case:
+
+image::overleaf-church-guide.png[width=700]
+
+When adding images, be sure to take this into account, though the only real fail safe method is to change the settings (`scale`, `center` etc.) and `Recompile` to see how it appears. 
+
+== Summary
+
+So what next? Well, now is the hard part, where you have to decide what your paper is about, and write the articles yourself. 
+
+To restate the process once more:
+
+* <<_creating_an_overleaf_account, Make your own Overleaf account>>.
+* Create your document, ste it up with the right packages, and change your paper name etc. Use <<_making_your_document>> as a guide to this process.
+* Set up your article titles, using the `\headline` command, including your own changes to the formatting. USe <<_adding_articles>> as a guide to doing this.
+* If desired, <<_adding_images,add and edit your images>>.
+* Write your newspaper.
+
+If you need further guidance with LaTeX, refer to the https://www.overleaf.com/learn[Overleaf documentation]. If you want more in depth guides to editing your newspaper, see the https://ftp.gwdg.de/pub/ctan/macros/latex/contrib/newspaper/newspaper.pdf[package's documentation].
+
+Happy writing!
